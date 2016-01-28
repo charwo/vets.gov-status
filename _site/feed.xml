@@ -1,0 +1,1119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Vets.gov Status Dashboard</title>
+    <description>A dashboard for Vets.gov projects, and the status of development.
+</description>
+    <link>http://vets.gov/status-report/</link>
+    <atom:link href="http://vets.gov/status-report/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Wed, 27 Jan 2016 22:18:42 -0800</pubDate>
+    <lastBuildDate>Wed, 27 Jan 2016 22:18:42 -0800</lastBuildDate>
+    <generator>Jekyll v3.1.0</generator>
+    
+      <item>
+        <title>In-depth Status</title>
+        <description>&lt;style&gt;
+table {
+    width:100%;
+}
+table, td {
+    border: 1px solid black;
+    text-align: center;
+    word-wrap: break-word;
+}
+
+.a {
+  width: 25%;
+}
+
+.c {
+  width:20%;
+}
+
+table#t01 th  {
+    color: white;
+}
+
+.majorHeading {
+  background-color: grey;
+  border: 1px solid black;
+
+}
+
+.minorHeading {
+  background-color: black;
+}
+
+&lt;/style&gt;
+
+&lt;table id=&quot;t01&quot;&gt;
+  &lt;tr class=&quot;majorHeading&quot;&gt;
+    &lt;th&gt;Name&lt;/th&gt;
+    &lt;th&gt;Product Lead&lt;/th&gt;
+    &lt;th&gt;VA Business Owner&lt;/th&gt;
+    &lt;th colspan=&quot;5&quot;&gt; Product Definition&lt;/th&gt;  
+    &lt;th colspan=&quot;8&quot;&gt;Discovery&lt;/th&gt;
+    &lt;th colspan=&quot;6&quot;&gt;Alpha&lt;/th&gt;
+    &lt;th colspan=&quot;8&quot;&gt;Beta&lt;/th&gt;
+    &lt;th colspan=&quot;1&quot;&gt;Pre-Flight&lt;/th&gt;
+    &lt;th colspan=&quot;2&quot;&gt;Go Live&lt;/th&gt;
+    &lt;th colspan=&quot;3&quot;&gt;Sunset&lt;/th&gt;
+  &lt;/tr&gt;  
+  &lt;tr class=&quot;minorHeading&quot;&gt;  
+    &lt;th&gt;&lt;/th&gt;
+    &lt;th&gt;&lt;/th&gt;
+    &lt;th&gt;&lt;/th&gt;
+    
+    &lt;th&gt;Identify VA business owner&lt;/th&gt;
+    &lt;th&gt;Identify product team members&lt;/th&gt;
+    &lt;th&gt;Conduct a kickoff meeting&lt;/th&gt;
+    &lt;th&gt;Draft a product charter / MOU &lt;/th&gt;
+    &lt;th&gt;Complete a SIGNED charter / MOU&lt;/th&gt;
+    
+    &lt;th&gt;Document baseline Google analytics and metrics&lt;/th&gt;
+    &lt;th&gt;Inventory required content&lt;/th&gt;
+    &lt;th&gt;Conduct technical discovery (security, systems, data, etc.)&lt;/th&gt;
+    &lt;th&gt;Discuss data model and data flow requirements with Shawn&lt;/th&gt; 
+    &lt;th&gt;Define feature requirements&lt;/th&gt;
+    &lt;th&gt;Design information architecture&lt;/th&gt;  
+    &lt;th&gt;Complete planning tasks (using launch guide checklist)&lt;/th&gt; 
+    &lt;th&gt;Update product charter/MOU as needed&lt;/th&gt;
+    
+    &lt;th&gt;Develop mockups&lt;/th&gt;  
+    &lt;th&gt;Begin content concurrence process&lt;/th&gt;  
+    &lt;th&gt;Begin technical tasks&lt;/th&gt;
+    &lt;th&gt;Develop alpha prototype&lt;/th&gt;  
+    &lt;th&gt;Conduct user testing&lt;/th&gt; 
+    &lt;th&gt;Review prototype / get feedback&lt;/th&gt;
+
+    &lt;th&gt;Refine prototype&lt;/th&gt; 
+    &lt;th&gt;Finalize content concurrence&lt;/th&gt; 
+    &lt;th&gt;Complete system security activities&lt;/th&gt;  
+    &lt;th&gt;Complete technical/ development activities&lt;/th&gt;
+    &lt;th&gt;Complete data mapping and migration activities&lt;/th&gt; 
+    &lt;th&gt;Complete testing&lt;/th&gt;
+    &lt;th&gt;Conduct user testing&lt;/th&gt; 
+    &lt;th&gt;VA business owner final acceptance&lt;/th&gt;
+    
+    &lt;th&gt;Conduct pre-launch tasks (per the launch guide)&lt;/th&gt;
+    
+    &lt;th&gt;Product launch)&lt;/th&gt;
+    &lt;th&gt;Intensive monitoring and support (30 days post launch))&lt;/th&gt;
+    
+    &lt;th&gt;Sunset legacy content&lt;/th&gt;  
+    &lt;th&gt;Sunset legacy systems&lt;/th&gt;
+    &lt;th&gt;Monitor performance metrics&lt;/th&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td class=&quot;a&quot;&gt;Disability Benefits Content&lt;/td&gt; &lt;!-- Name --&gt;
+    &lt;td&gt;Kelly&lt;/td&gt; &lt;!-- Lead --&gt;
+    &lt;td&gt;Jennifer Rudisill&lt;/td&gt; &lt;!-- VA Business Owner --&gt;
+    &lt;!-- Product Defintion --&gt;
+    &lt;td bgcolor=&quot;#009900&quot;&gt;Complete&lt;/td&gt;
+    &lt;td bgcolor=&quot;#009900&quot;&gt;Complete&lt;/td&gt;
+    &lt;td bgcolor=&quot;#009900&quot;&gt;Complete&lt;/td&gt;
+    &lt;td bgcolor=&quot;#808080&quot;&gt;&lt;/td&gt;
+    &lt;td bgcolor=&quot;#808080&quot;&gt;&lt;/td&gt;
+    
+    
+    &lt;!-- Discovery --&gt;  
+    &lt;td bgcolor=&quot;#009900&quot;&gt;Complete&lt;/td&gt;
+    &lt;td bgcolor=&quot;#009900&quot;&gt;Complete&lt;/td&gt;
+    &lt;td bgcolor=&quot;#808080&quot;&gt;&lt;/td&gt;
+    &lt;td bgcolor=&quot;#808080&quot;&gt;&lt;/td&gt;
+    &lt;td bgcolor=&quot;#808080&quot;&gt;&lt;/td&gt;
+    &lt;td bgcolor=&quot;#009900&quot;&gt;Complete&lt;/td&gt;
+    &lt;td bgcolor=&quot;#009900&quot;&gt;Complete&lt;/td&gt;
+    &lt;td bgcolor=&quot;#808080&quot;&gt;&lt;/td&gt;
+    
+    &lt;!-- Alpha --&gt;
+    &lt;td bgcolor=&quot;#009900&quot;&gt;Complete&lt;/td&gt;
+    &lt;td bgcolor=&quot;#009900&quot;&gt;Complete&lt;/td&gt;
+    &lt;td bgcolor=&quot;#808080&quot;&gt;&lt;/td&gt;
+    &lt;td bgcolor=&quot;#009900&quot;&gt;Complete&lt;/td&gt;
+    &lt;td bgcolor=&quot;#009900&quot;&gt;Complete&lt;/td&gt;
+    &lt;td bgcolor=&quot;#009900&quot;&gt;Complete&lt;/td&gt;
+    
+    &lt;!-- Beta --&gt;
+    &lt;td bgcolor=&quot;#009900&quot;&gt;Complete&lt;/td&gt;
+    &lt;td bgcolor=&quot;#009900&quot;&gt;Complete&lt;/td&gt;
+    &lt;td bgcolor=&quot;#808080&quot;&gt;&lt;/td&gt;
+    &lt;td bgcolor=&quot;#808080&quot;&gt;&lt;/td&gt;
+    &lt;td bgcolor=&quot;#808080&quot;&gt;&lt;/td&gt;
+    &lt;td bgcolor=&quot;#009900&quot;&gt;Complete&lt;/td&gt;
+    &lt;td bgcolor=&quot;#009900&quot;&gt;Complete&lt;/td&gt;
+    &lt;td bgcolor=&quot;#009900&quot;&gt;Complete&lt;/td&gt;
+    
+    &lt;!-- Pre-Flight --&gt;
+    &lt;td&gt;&lt;/td&gt;
+    
+    &lt;!-- Go Live --&gt;
+    &lt;td bgcolor=&quot;#009900&quot;&gt;Complete&lt;/td&gt;
+    &lt;td bgcolor=&quot;#009900&quot;&gt;Complete&lt;/td&gt;
+    
+    &lt;!-- Sunset --&gt;
+    &lt;td bgcolor=&quot;#009900&quot;&gt;&lt;/td&gt;
+    &lt;td bgcolor=&quot;#808080&quot;&gt;&lt;/td&gt;
+    &lt;td bgcolor=&quot;#009900&quot;&gt;&lt;/td&gt;
+  &lt;/tr&gt;
+  
+  
+  &lt;tr&gt;
+    &lt;td class=&quot;a&quot;&gt;Education Benefits Content&lt;/td&gt; &lt;!-- Name --&gt;
+    &lt;td&gt;Kelly&lt;/td&gt; &lt;!-- Lead --&gt;
+    &lt;td&gt;Jennifer Rudisill&lt;/td&gt; &lt;!-- VA Business Owner --&gt;
+    
+    &lt;!-- Product Defintion --&gt;
+    &lt;td bgcolor=&quot;#009900&quot;&gt;Complete&lt;/td&gt;
+    &lt;td bgcolor=&quot;#009900&quot;&gt;Complete&lt;/td&gt;
+    &lt;td bgcolor=&quot;#009900&quot;&gt;Complete&lt;/td&gt;
+    &lt;td bgcolor=&quot;#808080&quot;&gt;&lt;/td&gt;
+    &lt;td bgcolor=&quot;#808080&quot;&gt;&lt;/td&gt;
+    
+    
+    &lt;!-- Discovery --&gt;  
+    &lt;td bgcolor=&quot;#009900&quot;&gt;Complete&lt;/td&gt;
+    &lt;td bgcolor=&quot;#009900&quot;&gt;Complete&lt;/td&gt;
+    &lt;td bgcolor=&quot;#808080&quot;&gt;&lt;/td&gt;
+    &lt;td bgcolor=&quot;#808080&quot;&gt;&lt;/td&gt;
+    &lt;td bgcolor=&quot;#808080&quot;&gt;&lt;/td&gt;
+    &lt;td bgcolor=&quot;#009900&quot;&gt;Complete&lt;/td&gt;
+    &lt;td bgcolor=&quot;#009900&quot;&gt;Complete&lt;/td&gt;
+    &lt;td bgcolor=&quot;#808080&quot;&gt;&lt;/td&gt;
+    
+    &lt;!-- Alpha --&gt;
+    &lt;td bgcolor=&quot;#009900&quot;&gt;Complete&lt;/td&gt;
+    &lt;td bgcolor=&quot;#009900&quot;&gt;Complete&lt;/td&gt;
+    &lt;td bgcolor=&quot;#808080&quot;&gt;&lt;/td&gt;
+    &lt;td bgcolor=&quot;#009900&quot;&gt;Complete&lt;/td&gt;
+    &lt;td bgcolor=&quot;#009900&quot;&gt;Complete&lt;/td&gt;
+    &lt;td bgcolor=&quot;#009900&quot;&gt;Complete&lt;/td&gt;
+    
+    &lt;!-- Beta --&gt;
+    &lt;td bgcolor=&quot;#009900&quot;&gt;Complete&lt;/td&gt;
+    &lt;td bgcolor=&quot;#009900&quot;&gt;Complete&lt;/td&gt;
+    &lt;td bgcolor=&quot;#808080&quot;&gt;&lt;/td&gt;
+    &lt;td bgcolor=&quot;#808080&quot;&gt;&lt;/td&gt;
+    &lt;td bgcolor=&quot;#808080&quot;&gt;&lt;/td&gt;
+    &lt;td bgcolor=&quot;#009900&quot;&gt;Complete&lt;/td&gt;
+    &lt;td bgcolor=&quot;#009900&quot;&gt;Complete&lt;/td&gt;
+    &lt;td bgcolor=&quot;#009900&quot;&gt;Complete&lt;/td&gt;
+    
+    &lt;!-- Pre-Flight --&gt;
+    &lt;td&gt;&lt;/td&gt;
+    
+    &lt;!-- Go Live --&gt;
+    &lt;td bgcolor=&quot;#009900&quot;&gt;Complete&lt;/td&gt;
+    &lt;td bgcolor=&quot;#009900&quot;&gt;Complete&lt;/td&gt;
+    
+    &lt;!-- Sunset --&gt;
+    &lt;td bgcolor=&quot;#009900&quot;&gt;&lt;/td&gt;
+    &lt;td bgcolor=&quot;#808080&quot;&gt;&lt;/td&gt;
+    &lt;td bgcolor=&quot;#009900&quot;&gt;&lt;/td&gt;
+  &lt;/tr&gt;
+  
+  
+  &lt;tr&gt;
+    &lt;td class=&quot;a&quot;&gt;Facility Locator - Service and Facility Locator&lt;/td&gt; &lt;!-- Name --&gt;
+    &lt;td&gt;Rick&lt;/td&gt; &lt;!-- Lead --&gt;
+    &lt;td&gt;Dat Tran&lt;/td&gt; &lt;!-- VA Business Owner --&gt;
+    
+    &lt;!-- Product Defintion --&gt;
+    &lt;td bgcolor=&quot;#009900&quot;&gt;Complete&lt;/td&gt;
+    &lt;td bgcolor=&quot;#009900&quot;&gt;Complete&lt;/td&gt;
+    &lt;td bgcolor=&quot;#009900&quot;&gt;Complete&lt;/td&gt;
+    &lt;td bgcolor=&quot;#808080&quot;&gt;&lt;/td&gt;
+    &lt;td bgcolor=&quot;#808080&quot;&gt;&lt;/td&gt;
+    
+    &lt;!-- Discovery --&gt;  
+    &lt;td bgcolor=&quot;#009900&quot;&gt;&lt;/td&gt;
+    &lt;td bgcolor=&quot;#808080&quot;&gt;&lt;/td&gt;
+    &lt;td bgcolor=&quot;#009900&quot;&gt;&lt;/td&gt;
+    &lt;td bgcolor=&quot;#009900&quot;&gt;&lt;/td&gt;
+    &lt;td bgcolor=&quot;#009900&quot;&gt;&lt;/td&gt;
+    &lt;td&gt;&lt;/td&gt;
+    &lt;td&gt;&lt;/td&gt;
+    &lt;td&gt;&lt;/td&gt;
+    
+    &lt;!-- Alpha --&gt;
+    &lt;td&gt;&lt;/td&gt;
+    &lt;td&gt;&lt;/td&gt;
+    &lt;td&gt;&lt;/td&gt;
+    &lt;td&gt;&lt;/td&gt;
+    &lt;td&gt;&lt;/td&gt;
+    &lt;td&gt;&lt;/td&gt;
+    
+    &lt;!-- Beta --&gt;
+    &lt;td&gt;&lt;/td&gt;
+    &lt;td&gt;&lt;/td&gt;
+    &lt;td&gt;&lt;/td&gt;
+    &lt;td&gt;&lt;/td&gt;
+    &lt;td&gt;&lt;/td&gt;
+    &lt;td&gt;&lt;/td&gt;
+    &lt;td&gt;&lt;/td&gt;
+    &lt;td&gt;&lt;/td&gt;
+    
+    &lt;!-- Pre-Flight --&gt;
+    &lt;td&gt;&lt;/td&gt;
+    
+    &lt;!-- Go Live --&gt;
+    &lt;td&gt;&lt;/td&gt;
+    &lt;td&gt;&lt;/td&gt;
+    
+    &lt;!-- Sunset --&gt;
+    &lt;td&gt;&lt;/td&gt;
+    &lt;td&gt;&lt;/td&gt;
+    &lt;td&gt;&lt;/td&gt;
+  &lt;/tr&gt;
+  
+  
+  &lt;tr&gt;
+    &lt;td class=&quot;a&quot;&gt;Facility Locator Beta Release&lt;/td&gt; &lt;!-- Name --&gt;
+    &lt;td&gt;Kelly&lt;/td&gt; &lt;!-- Lead --&gt;
+    &lt;td&gt;Dat Tran&lt;/td&gt; &lt;!-- VA Business Owner --&gt;
+    
+    &lt;!-- Product Defintion --&gt;
+    &lt;td bgcolor=&quot;#009900&quot;&gt;Complete&lt;/td&gt;
+    &lt;td bgcolor=&quot;#009900&quot;&gt;Complete&lt;/td&gt;
+    &lt;td bgcolor=&quot;#009900&quot;&gt;Complete&lt;/td&gt;
+    &lt;td bgcolor=&quot;#808080&quot;&gt;&lt;/td&gt;
+    &lt;td bgcolor=&quot;#808080&quot;&gt;&lt;/td&gt;
+    
+    &lt;!-- Discovery --&gt;  
+    &lt;td bgcolor=&quot;#009900&quot;&gt;Complete&lt;/td&gt;
+    &lt;td bgcolor=&quot;#808080&quot;&gt;&lt;/td&gt;
+    &lt;td bgcolor=&quot;#009900&quot;&gt;Complete&lt;/td&gt;
+    &lt;td bgcolor=&quot;#009900&quot;&gt;Complete&lt;/td&gt;
+    &lt;td bgcolor=&quot;#009900&quot;&gt;Complete&lt;/td&gt;
+    &lt;td bgcolor=&quot;#009900&quot;&gt;Complete&lt;/td&gt;
+    &lt;td bgcolor=&quot;#009900&quot;&gt;Complete&lt;/td&gt;
+    &lt;td bgcolor=&quot;#808080&quot;&gt;&lt;/td&gt;
+    
+    &lt;!-- Alpha --&gt;
+    &lt;td bgcolor=&quot;#009900&quot;&gt;Complete&lt;/td&gt;
+    &lt;td bgcolor=&quot;#009900&quot;&gt;Complete&lt;/td&gt;
+    &lt;td bgcolor=&quot;#009900&quot;&gt;Complete&lt;/td&gt;
+    &lt;td bgcolor=&quot;#009900&quot;&gt;Complete&lt;/td&gt;
+    &lt;td bgcolor=&quot;#009900&quot;&gt;Complete&lt;/td&gt;
+    &lt;td bgcolor=&quot;#009900&quot;&gt;Complete&lt;/td&gt;
+    
+    &lt;!-- Beta --&gt;
+    &lt;td bgcolor=&quot;#009900&quot;&gt;Complete&lt;/td&gt;
+    &lt;td bgcolor=&quot;#009900&quot;&gt;Complete&lt;/td&gt;
+    &lt;td bgcolor=&quot;#808080&quot;&gt;&lt;/td&gt;
+    &lt;td bgcolor=&quot;#009900&quot;&gt;Complete&lt;/td&gt;
+    &lt;td bgcolor=&quot;#009900&quot;&gt;Complete&lt;/td&gt;
+    &lt;td bgcolor=&quot;#009900&quot;&gt;Complete&lt;/td&gt;
+    &lt;td bgcolor=&quot;#009900&quot;&gt;Complete&lt;/td&gt;
+    &lt;td bgcolor=&quot;#009900&quot;&gt;Complete&lt;/td&gt;
+    
+    &lt;!-- Pre-Flight --&gt;
+    &lt;td&gt;&lt;/td&gt;
+    
+    &lt;!-- Go Live --&gt;
+    &lt;td bgcolor=&quot;#009900&quot;&gt;Complete&lt;/td&gt;
+    &lt;td bgcolor=&quot;#009900&quot;&gt;Complete&lt;/td&gt;
+    
+    &lt;!-- Sunset --&gt;
+    &lt;td bgcolor=&quot;#009900&quot;&gt;Complete&lt;/td&gt;
+    &lt;td bgcolor=&quot;#808080&quot;&gt;&lt;/td&gt;
+    &lt;td bgcolor=&quot;#009900&quot;&gt;Complete&lt;/td&gt;
+  &lt;/tr&gt;
+  
+  &lt;tr&gt;
+    &lt;td class=&quot;a&quot;&gt;Veterans Online Application&lt;/td&gt; &lt;!-- Name --&gt;
+    &lt;td&gt;Emily T&lt;/td&gt; &lt;!-- Lead --&gt;
+    &lt;td&gt;Joan Hall&lt;/td&gt; &lt;!-- VA Business Owner --&gt;
+    
+    &lt;!-- Product Defintion --&gt;
+    &lt;td bgcolor=&quot;#009900&quot;&gt;Complete&lt;/td&gt;
+    &lt;td bgcolor=&quot;#009900&quot;&gt;Complete&lt;/td&gt;
+    &lt;td bgcolor=&quot;#009900&quot;&gt;Complete&lt;/td&gt;
+    &lt;td bgcolor=&quot;#009900&quot;&gt;&lt;/td&gt;
+    &lt;td&gt;&lt;/td&gt;
+    
+    &lt;!-- Discovery --&gt;  
+    &lt;td bgcolor=&quot;#009900&quot;&gt;&lt;/td&gt;
+    &lt;td bgcolor=&quot;#009900&quot;&gt;&lt;/td&gt;
+    &lt;td bgcolor=&quot;#009900&quot;&gt;&lt;/td&gt;
+    &lt;td bgcolor=&quot;#009900&quot;&gt;&lt;/td&gt;
+    &lt;td bgcolor=&quot;#808080&quot;&gt;&lt;/td&gt;
+    &lt;td&gt;&lt;/td&gt;
+    &lt;td&gt;&lt;/td&gt;
+    &lt;td&gt;&lt;/td&gt;
+    
+    &lt;!-- Alpha --&gt;
+    &lt;td&gt;&lt;/td&gt;
+    &lt;td bgcolor=&quot;#009900&quot;&gt;&lt;/td&gt;
+    &lt;td&gt;&lt;/td&gt;
+    &lt;td&gt;&lt;/td&gt;
+    &lt;td&gt;&lt;/td&gt;
+    &lt;td&gt;&lt;/td&gt;
+    
+    &lt;!-- Beta --&gt;
+    &lt;td&gt;&lt;/td&gt;
+    &lt;td&gt;&lt;/td&gt;
+    &lt;td&gt;&lt;/td&gt;
+    &lt;td&gt;&lt;/td&gt;
+    &lt;td&gt;&lt;/td&gt;
+    &lt;td&gt;&lt;/td&gt;
+    &lt;td&gt;&lt;/td&gt;
+    &lt;td&gt;&lt;/td&gt;
+    
+    &lt;!-- Pre-Flight --&gt;
+    &lt;td&gt;&lt;/td&gt;
+    
+    &lt;!-- Go Live --&gt;
+    &lt;td&gt;&lt;/td&gt;
+    &lt;td&gt;&lt;/td&gt;
+    
+    &lt;!-- Sunset --&gt;
+    &lt;td&gt;&lt;/td&gt;
+    &lt;td&gt;&lt;/td&gt;
+    &lt;td&gt;&lt;/td&gt;
+  &lt;/tr&gt;
+  
+  
+  &lt;tr&gt;
+    &lt;td class=&quot;a&quot;&gt;Kelly Test 1&lt;/td&gt; &lt;!-- Name --&gt;
+    &lt;td&gt;Kelly&lt;/td&gt; &lt;!-- Lead --&gt;
+    &lt;td&gt;Kelly&lt;/td&gt; &lt;!-- VA Business Owner --&gt;
+    
+    &lt;!-- Product Defintion --&gt;
+    &lt;td bgcolor=&quot;#009900&quot;&gt;Complete&lt;/td&gt;
+    &lt;td bgcolor=&quot;#009900&quot;&gt;Complete&lt;/td&gt;
+    &lt;td bgcolor=&quot;#009900&quot;&gt;Complete&lt;/td&gt;
+    &lt;td bgcolor=&quot;#808080&quot;&gt;&lt;/td&gt;
+    &lt;td bgcolor=&quot;#808080&quot;&gt;&lt;/td&gt;
+    
+    &lt;!-- Discovery --&gt;  
+    &lt;td bgcolor=&quot;#009900&quot;&gt;Complete&lt;/td&gt;
+    &lt;td bgcolor=&quot;#808080&quot;&gt;&lt;/td&gt;
+    &lt;td bgcolor=&quot;#009900&quot;&gt;Complete&lt;/td&gt;
+    &lt;td bgcolor=&quot;#009900&quot;&gt;Complete&lt;/td&gt;
+    &lt;td bgcolor=&quot;#009900&quot;&gt;Complete&lt;/td&gt;
+    &lt;td bgcolor=&quot;#009900&quot;&gt;Complete&lt;/td&gt;
+    &lt;td bgcolor=&quot;#009900&quot;&gt;Complete&lt;/td&gt;
+    &lt;td bgcolor=&quot;#808080&quot;&gt;&lt;/td&gt;
+    
+    &lt;!-- Alpha --&gt;
+    &lt;td bgcolor=&quot;#009900&quot;&gt;&lt;/td&gt;
+    &lt;td bgcolor=&quot;yellow&quot;&gt;&lt;/td&gt;
+    &lt;td bgcolor=&quot;yellow&quot;&gt;&lt;/td&gt;
+    &lt;td bgcolor=&quot;#009900&quot;&gt;Complete&lt;/td&gt;
+    &lt;td bgcolor=&quot;#009900&quot;&gt;Complete&lt;/td&gt;
+    &lt;td bgcolor=&quot;#009900&quot;&gt;Complete&lt;/td&gt;
+    
+    &lt;!-- Beta --&gt;
+    &lt;td bgcolor=&quot;#009900&quot;&gt;Complete&lt;/td&gt;
+    &lt;td bgcolor=&quot;red&quot;&gt;&lt;/td&gt;
+    &lt;td bgcolor=&quot;#808080&quot;&gt;&lt;/td&gt;
+    &lt;td bgcolor=&quot;#009900&quot;&gt;Complete&lt;/td&gt;
+    &lt;td bgcolor=&quot;red&quot;&gt;&lt;/td&gt;
+    &lt;td bgcolor=&quot;yellow&quot;&gt;&lt;/td&gt;
+    &lt;td bgcolor=&quot;#009900&quot;&gt;Complete&lt;/td&gt;
+    &lt;td&gt;&lt;/td&gt;
+    
+    &lt;!-- Pre-Flight --&gt;
+    &lt;td&gt;&lt;/td&gt;
+    
+    &lt;!-- Go Live --&gt;
+    &lt;td&gt;&lt;/td&gt;
+    &lt;td&gt;&lt;/td&gt;
+    
+    &lt;!-- Sunset --&gt;
+    &lt;td&gt;&lt;/td&gt;
+    &lt;td&gt;&lt;/td&gt;
+    &lt;td&gt;&lt;/td&gt;
+  &lt;/tr&gt;
+  
+  &lt;tr&gt;
+    &lt;td class=&quot;a&quot;&gt;Kelly Test 2&lt;/td&gt; &lt;!-- Name --&gt;
+    &lt;td&gt;Kelly&lt;/td&gt; &lt;!-- Lead --&gt;
+    &lt;td&gt;Kelly&lt;/td&gt; &lt;!-- VA Business Owner --&gt;
+    
+    &lt;!-- Product Defintion --&gt;
+    &lt;td bgcolor=&quot;#009900&quot;&gt;Complete&lt;/td&gt;
+    &lt;td bgcolor=&quot;#009900&quot;&gt;Complete&lt;/td&gt;
+    &lt;td bgcolor=&quot;#009900&quot;&gt;Complete&lt;/td&gt;
+    &lt;td bgcolor=&quot;#808080&quot;&gt;&lt;/td&gt;
+    &lt;td bgcolor=&quot;#009900&quot;&gt;Complete&lt;/td&gt;
+    
+    &lt;!-- Discovery --&gt;  
+    &lt;td bgcolor=&quot;#009900&quot;&gt;Complete&lt;/td&gt;
+    &lt;td bgcolor=&quot;#808080&quot;&gt;&lt;/td&gt;
+    &lt;td bgcolor=&quot;#009900&quot;&gt;Complete&lt;/td&gt;
+    &lt;td bgcolor=&quot;#009900&quot;&gt;Complete&lt;/td&gt;
+    &lt;td bgcolor=&quot;#009900&quot;&gt;Complete&lt;/td&gt;
+    &lt;td bgcolor=&quot;#009900&quot;&gt;Complete&lt;/td&gt;
+    &lt;td bgcolor=&quot;red&quot;&gt;&lt;/td&gt;
+    &lt;td bgcolor=&quot;red&quot;&gt;&lt;/td&gt;
+    
+    &lt;!-- Alpha --&gt;
+    &lt;td bgcolor=&quot;#009900&quot;&gt;&lt;/td&gt;
+    &lt;td bgcolor=&quot;yellow&quot;&gt;&lt;/td&gt;
+    &lt;td bgcolor=&quot;yellow&quot;&gt;&lt;/td&gt;
+    &lt;td bgcolor=&quot;#009900&quot;&gt;Complete&lt;/td&gt;
+    &lt;td bgcolor=&quot;#009900&quot;&gt;Complete&lt;/td&gt;
+    &lt;td bgcolor=&quot;#009900&quot;&gt;Complete&lt;/td&gt;
+    
+    &lt;!-- Beta --&gt;
+    &lt;td&gt;&lt;/td&gt;
+    &lt;td&gt;&lt;/td&gt;
+    &lt;td&gt;&lt;/td&gt;
+    &lt;td&gt;&lt;/td&gt;
+    &lt;td&gt;&lt;/td&gt;
+    &lt;td&gt;&lt;/td&gt;
+    &lt;td&gt;&lt;/td&gt;
+    &lt;td&gt;&lt;/td&gt;
+    
+    &lt;!-- Pre-Flight --&gt;
+    &lt;td&gt;&lt;/td&gt;
+    
+    &lt;!-- Go Live --&gt;
+    &lt;td&gt;&lt;/td&gt;
+    &lt;td&gt;&lt;/td&gt;
+    
+    &lt;!-- Sunset --&gt;
+    &lt;td&gt;&lt;/td&gt;
+    &lt;td&gt;&lt;/td&gt;
+    &lt;td&gt;&lt;/td&gt;
+  &lt;/tr&gt;
+  
+  
+&lt;/table&gt;
+&lt;p&gt;&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;h3&gt;Legend&lt;/h3&gt;
+&lt;table class=&quot;c&quot;&gt;
+  &lt;tr&gt;
+    &lt;th class=&quot;a&quot;&gt;Symbol&lt;/th&gt;
+    &lt;th&gt;Meaning&lt;/th&gt;    
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td bgcolor=&quot;#009900&quot;&gt;Complete&lt;/td&gt;
+    &lt;td&gt;Completed&lt;/td&gt;    
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td bgcolor=&quot;#009900&quot;&gt;&lt;/td&gt;
+    &lt;td&gt;In Progress - No Blockers&lt;/td&gt;    
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td bgcolor=&quot;yellow&quot;&gt;&lt;/td&gt;
+    &lt;td&gt;Low/Moderate risk blockers require possible escalation&lt;/td&gt;   
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td bgcolor=&quot;red&quot;&gt;&lt;/td&gt;
+    &lt;td&gt;High risk blockers require escalation&lt;/td&gt;    
+  &lt;/tr&gt;
+  &lt;td&gt;&lt;/td&gt;
+  &lt;td&gt;Not Yet Started&lt;/td&gt;  
+  &lt;tr&gt;
+    &lt;td bgcolor=&quot;808080&quot;&gt;&lt;/td&gt;
+    &lt;td&gt;Not applicable for this product&lt;/td&gt;    
+  &lt;/tr&gt;
+&lt;/table&gt;
+</description>
+        <pubDate>Wed, 27 Jan 2016 19:49:12 -0800</pubDate>
+        <link>http://vets.gov/status-report/jekyll/update/2016/01/27/welcome-to-jekyll.html</link>
+        <guid isPermaLink="true">http://vets.gov/status-report/jekyll/update/2016/01/27/welcome-to-jekyll.html</guid>
+        
+        
+        <category>jekyll</category>
+        
+        <category>update</category>
+        
+      </item>
+    
+      <item>
+        <title>Test</title>
+        <description>&lt;p&gt;You’ll find this post in your &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code class=&quot;highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
+
+&lt;p&gt;To add new posts, simply add a file in the &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory that follows the convention &lt;code class=&quot;highlighter-rouge&quot;&gt;YYYY-MM-DD-name-of-post.ext&lt;/code&gt; and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.&lt;/p&gt;
+
+&lt;p&gt;Jekyll also offers powerful support for code snippets:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;Hi, &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&#39;Tom&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints &#39;Hi, Tom&#39; to STDOUT.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;Check out the &lt;a href=&quot;http://jekyllrb.com/docs/home&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://talk.jekyllrb.com/&quot;&gt;Jekyll Talk&lt;/a&gt;.&lt;/p&gt;
+
+</description>
+        <pubDate>Wed, 27 Jan 2016 19:49:12 -0800</pubDate>
+        <link>http://vets.gov/status-report/jekyll/update/2016/01/27/test.html</link>
+        <guid isPermaLink="true">http://vets.gov/status-report/jekyll/update/2016/01/27/test.html</guid>
+        
+        
+        <category>jekyll</category>
+        
+        <category>update</category>
+        
+      </item>
+    
+      <item>
+        <title>Kelly Test 2</title>
+        <description>&lt;style&gt;
+table {
+    width:75%;
+}
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+    word-wrap: break-word;
+}
+
+.a {
+  width: 50%;
+}
+
+.b {
+  width: 15%;
+}
+
+green {
+    background-color: red;
+    color: green;
+}
+
+completed {
+    background-color: green;
+    color: black;
+}
+
+table#t01 th  {
+    background-color: black;
+    color: white;
+}
+
+#left {
+  float:left;
+  width: 50%;
+}
+
+#right {
+  float:left;
+  width: 45%;
+}
+&lt;/style&gt;
+
+&lt;div id=&quot;header&quot;&gt;
+    &lt;div id=&quot;left&quot;&gt;
+      &lt;h1&gt;Kelly Test 2&lt;/h1&gt;
+
+      &lt;h3&gt;Product Lead: Kelly&lt;br /&gt;
+      Start Date: 1/12/2016&lt;br /&gt;
+      VA Business Owner: Kelly&lt;/h3&gt;
+    &lt;/div&gt;  
+    &lt;div id=&quot;right&quot;&gt;
+      &lt;h3&gt;Legend&lt;/h3&gt;
+      &lt;table&gt;
+        &lt;tr&gt;
+          &lt;th class=&quot;a&quot;&gt;Symbol&lt;/th&gt;
+          &lt;th&gt;Meaning&lt;/th&gt;    
+        &lt;/tr&gt;
+        &lt;tr&gt;
+          &lt;td bgcolor=&quot;#009900&quot;&gt;Complete&lt;/td&gt;
+          &lt;td&gt;Completed&lt;/td&gt;    
+        &lt;/tr&gt;
+        &lt;tr&gt;
+          &lt;td bgcolor=&quot;#009900&quot;&gt;&lt;/td&gt;
+          &lt;td&gt;In Progress - No Blockers&lt;/td&gt;    
+        &lt;/tr&gt;
+        &lt;tr&gt;
+          &lt;td bgcolor=&quot;yellow&quot;&gt;&lt;/td&gt;
+          &lt;td&gt;Low/Moderate risk blockers require possible escalation&lt;/td&gt;   
+        &lt;/tr&gt;
+        &lt;tr&gt;
+          &lt;td bgcolor=&quot;red&quot;&gt;&lt;/td&gt;
+          &lt;td&gt;High risk blockers require escalation&lt;/td&gt;    
+        &lt;/tr&gt;
+        &lt;td&gt;&lt;/td&gt;
+        &lt;td&gt;Not Yet Started&lt;/td&gt;  
+        &lt;tr&gt;
+          &lt;td bgcolor=&quot;808080&quot;&gt;&lt;/td&gt;
+          &lt;td&gt;Not applicable for this product&lt;/td&gt;    
+        &lt;/tr&gt;
+      &lt;/table&gt;&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;h3&gt;Product Definition&lt;/h3&gt;
+&lt;table id=&quot;t01&quot;&gt;
+  &lt;tr&gt;
+    &lt;th class=&quot;a&quot;&gt;Task&lt;/th&gt;
+    &lt;th class=&quot;b&quot;&gt;Status&lt;/th&gt;
+    &lt;th&gt;Notes&lt;/th&gt;    
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td&gt;Identify VA business owner&lt;/td&gt;
+    &lt;td bgcolor=&quot;#009900&quot;&gt;Complete&lt;/td&gt;
+    &lt;td&gt;&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td&gt;Identify product team members&lt;/td&gt;
+    &lt;td bgcolor=&quot;#009900&quot;&gt;Complete&lt;/td&gt;
+    &lt;td&gt;&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td&gt;Conduct a kickoff meeting&lt;/td&gt;
+    &lt;td bgcolor=&quot;#009900&quot;&gt;Complete&lt;/td&gt;
+    &lt;td&gt;&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td&gt;Draft a product charter / MOU&lt;/td&gt;
+    &lt;td bgcolor=&quot;#808080&quot;&gt;&lt;/td&gt;
+    &lt;td&gt;&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td&gt;Complete a SIGNED charter / MOU&lt;/td&gt;
+    &lt;td bgcolor=&quot;#009900&quot;&gt;Complete&lt;/td&gt;
+    &lt;td&gt;&lt;/td&gt;
+  &lt;/tr&gt;
+&lt;/table&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;h3&gt;Discovery&lt;/h3&gt;
+&lt;table id=&quot;t01&quot;&gt;
+  &lt;tr&gt;
+    &lt;th class=&quot;a&quot;&gt;Task&lt;/th&gt;
+    &lt;th class=&quot;b&quot;&gt;Status&lt;/th&gt;
+    &lt;th&gt;Notes&lt;/th&gt;    
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td&gt;Document baseline Google analytics and metrics&lt;/td&gt;
+    &lt;td bgcolor=&quot;#009900&quot;&gt;Complete&lt;/td&gt;
+    &lt;td&gt;&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td&gt;Inventory required content&lt;/td&gt;
+    &lt;td bgcolor=&quot;#808080&quot;&gt;&lt;/td&gt;
+    &lt;td&gt;&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td&gt;Conduct technical discovery (security, systems, data, etc.)&lt;/td&gt;
+    &lt;td bgcolor=&quot;#009900&quot;&gt;Complete&lt;/td&gt;
+    &lt;td&gt;&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td&gt;Discuss data model and data flow requirements with Shawn&lt;/td&gt;
+    &lt;td bgcolor=&quot;#009900&quot;&gt;Complete&lt;/td&gt;
+    &lt;td&gt;&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td&gt;Define feature requirements&lt;/td&gt;
+    &lt;td bgcolor=&quot;#009900&quot;&gt;Complete&lt;/td&gt;
+    &lt;td&gt;&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td&gt;Design information architecture&lt;/td&gt;
+    &lt;td bgcolor=&quot;#009900&quot;&gt;Complete&lt;/td&gt;
+    &lt;td&gt;&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td&gt;Complete planning tasks (using launch guide checklist)&lt;/td&gt;
+    &lt;td bgcolor=&quot;red&quot;&gt;&lt;/td&gt;
+    &lt;td&gt;Updated charter requires signature&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td&gt;Update product charter/MOU as needed&lt;/td&gt;
+    &lt;td bgcolor=&quot;red&quot;&gt;&lt;/td&gt;
+    &lt;td&gt;Business owner has not yet signed revised charter with increased scope and adjusted milestone dates, but team continues to move ahead&lt;/td&gt;
+  &lt;/tr&gt;
+&lt;/table&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;h3&gt;Alpha&lt;/h3&gt;
+&lt;table id=&quot;t01&quot;&gt;
+  &lt;tr&gt;
+    &lt;th class=&quot;a&quot;&gt;Task&lt;/th&gt;
+    &lt;th class=&quot;b&quot;&gt;Status&lt;/th&gt;
+    &lt;th&gt;Notes&lt;/th&gt;    
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td&gt;Develop mockups&lt;/td&gt;
+    &lt;td bgcolor=&quot;#009900&quot;&gt;&lt;/td&gt;
+    &lt;td&gt;&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td&gt;Begin content concurrence process&lt;/td&gt;
+    &lt;td bgcolor=&quot;yellow&quot;&gt;&lt;/td&gt;
+    &lt;td&gt;&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td&gt;Begin technical tasks&lt;/td&gt;
+    &lt;td bgcolor=&quot;yellow&quot;&gt;&lt;/td&gt;
+    &lt;td&gt;&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td&gt;Develop alpha prototype&lt;/td&gt;
+    &lt;td bgcolor=&quot;#009900&quot;&gt;Complete&lt;/td&gt;
+    &lt;td&gt;&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td&gt;Conduct user testing&lt;/td&gt;
+    &lt;td bgcolor=&quot;#009900&quot;&gt;Complete&lt;/td&gt;
+    &lt;td&gt;&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td&gt;Review prototype / get feedback&lt;/td&gt;
+    &lt;td bgcolor=&quot;#009900&quot;&gt;Complete&lt;/td&gt;
+    &lt;td&gt;&lt;/td&gt;
+  &lt;/tr&gt;
+&lt;/table&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;h3&gt;Beta&lt;/h3&gt;
+&lt;table id=&quot;t01&quot;&gt;
+  &lt;tr&gt;
+    &lt;th class=&quot;a&quot;&gt;Task&lt;/th&gt;
+    &lt;th class=&quot;b&quot;&gt;Status&lt;/th&gt;
+    &lt;th&gt;Notes&lt;/th&gt;    
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td&gt;Refine prototype&lt;/td&gt;
+    &lt;td&gt;&lt;/td&gt;
+    &lt;td&gt;&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td&gt;Finalize content concurrence&lt;/td&gt;
+    &lt;td&gt;&lt;/td&gt;
+    &lt;td&gt;&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td&gt;Complete system security activities&lt;/td&gt;
+    &lt;td&gt;&lt;/td&gt;
+    &lt;td&gt;&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td&gt;Complete technical/development activities&lt;/td&gt;
+    &lt;td&gt;&lt;/td&gt;
+    &lt;td&gt;&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td&gt;Complete data mapping and migration activities&lt;/td&gt;
+    &lt;td&gt;&lt;/td&gt;
+    &lt;td&gt;&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td&gt;Complete testing&lt;/td&gt;
+    &lt;td&gt;&lt;/td&gt;
+    &lt;td&gt;&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td&gt;Conduct user testing&lt;/td&gt;
+    &lt;td&gt;&lt;/td&gt;
+    &lt;td&gt;&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td&gt;VA business owner final acceptance&lt;/td&gt;
+    &lt;td&gt;&lt;/td&gt;
+    &lt;td&gt;&lt;/td&gt;
+  &lt;/tr&gt;
+&lt;/table&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;h3&gt;Pre-Flight&lt;/h3&gt;
+&lt;table id=&quot;t01&quot;&gt;
+  &lt;tr&gt;
+    &lt;th class=&quot;a&quot;&gt;Task&lt;/th&gt;
+    &lt;th class=&quot;b&quot;&gt;Status&lt;/th&gt;
+    &lt;th&gt;Notes&lt;/th&gt;    
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td&gt;Conduct pre-launch tasks (per the launch guide)&lt;/td&gt;
+    &lt;td&gt;&lt;/td&gt;
+    &lt;td&gt;&lt;/td&gt;
+  &lt;/tr&gt;
+&lt;/table&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;h3&gt;Go Live&lt;/h3&gt;
+&lt;table id=&quot;t01&quot;&gt;
+  &lt;tr&gt;
+    &lt;th class=&quot;a&quot;&gt;Task&lt;/th&gt;
+    &lt;th class=&quot;b&quot;&gt;Status&lt;/th&gt;
+    &lt;th&gt;Notes&lt;/th&gt;    
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td&gt;Product Launch&lt;/td&gt;
+    &lt;td&gt;&lt;/td&gt;
+    &lt;td&gt;&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td&gt;Intensive monitoring and support (30 days post launch)&lt;/td&gt;
+    &lt;td&gt;&lt;/td&gt;
+    &lt;td&gt;&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td&gt;Implement ongoing enhancement process&lt;/td&gt;
+    &lt;td&gt;&lt;/td&gt;
+    &lt;td&gt;&lt;/td&gt;
+  &lt;/tr&gt;
+&lt;/table&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;h3&gt;Sunset&lt;/h3&gt;
+&lt;table id=&quot;t01&quot;&gt;
+  &lt;tr&gt;
+    &lt;th class=&quot;a&quot;&gt;Task&lt;/th&gt;
+    &lt;th class=&quot;b&quot;&gt;Status&lt;/th&gt;
+    &lt;th&gt;Notes&lt;/th&gt;    
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td&gt;Sunset legacy content&lt;/td&gt;
+    &lt;td&gt;&lt;/td&gt;
+    &lt;td&gt;&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td&gt;Sunset legacy systems&lt;/td&gt;
+    &lt;td&gt;&lt;/td&gt;
+    &lt;td&gt;&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td&gt;Monitor performance metrics&lt;/td&gt;
+    &lt;td&gt;&lt;/td&gt;
+    &lt;td&gt;&lt;/td&gt;
+  &lt;/tr&gt;
+&lt;/table&gt;
+</description>
+        <pubDate>Wed, 27 Jan 2016 19:49:12 -0800</pubDate>
+        <link>http://vets.gov/status-report/jekyll/update/2016/01/27/kelly-test.html</link>
+        <guid isPermaLink="true">http://vets.gov/status-report/jekyll/update/2016/01/27/kelly-test.html</guid>
+        
+        
+        <category>jekyll</category>
+        
+        <category>update</category>
+        
+      </item>
+    
+      <item>
+        <title>High Level Dashboard</title>
+        <description>&lt;style&gt;
+table {
+    width:100%;
+}
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+    word-wrap: break-word;
+}
+
+.a {
+  width: 25%;
+}
+
+.c {
+  width:30%;
+}
+
+green {
+    background-color: red;
+    color: green;
+}
+
+completed {
+    background-color: green;
+    color: black;
+}
+
+table#t01 th  {
+    background-color: black;
+    color: white;
+}
+&lt;/style&gt;
+
+&lt;table id=&quot;t01&quot;&gt;
+  &lt;tr&gt;
+    &lt;th class=&quot;a&quot;&gt;Name&lt;/th&gt;
+    &lt;th&gt;Product Lead&lt;/th&gt;
+    &lt;th&gt;VA Business Owner&lt;/th&gt;
+    &lt;th&gt;Product Definition&lt;/th&gt;   
+    &lt;th&gt;Discovery&lt;/th&gt;
+    &lt;th&gt;Alpha&lt;/th&gt;
+    &lt;th&gt;Beta&lt;/th&gt;
+    &lt;th&gt;Pre Flight&lt;/th&gt;
+    &lt;th&gt;Go Live&lt;/th&gt;
+    &lt;th&gt;Sunset&lt;/th&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td class=&quot;a&quot;&gt;Disability Benefits Content&lt;/td&gt; &lt;!-- Name --&gt;
+    &lt;td&gt;Kelly&lt;/td&gt; &lt;!-- Lead --&gt;
+    &lt;td&gt;Jennifer Rudisill&lt;/td&gt; &lt;!-- VA Business Owner --&gt;
+    &lt;td bgcolor=&quot;#009900&quot;&gt;Complete&lt;/td&gt; &lt;!-- Product Defintion --&gt;
+    &lt;td bgcolor=&quot;#009900&quot;&gt;Complete&lt;/td&gt; &lt;!-- Discovery --&gt;  
+    &lt;td bgcolor=&quot;#009900&quot;&gt;Complete&lt;/td&gt; &lt;!-- Alpha --&gt;
+    &lt;td bgcolor=&quot;#009900&quot;&gt;Complete&lt;/td&gt; &lt;!-- Beta --&gt;
+    &lt;td bgcolor=&quot;#009900&quot;&gt;Complete&lt;/td&gt; &lt;!-- Testing --&gt;
+    &lt;td bgcolor=&quot;#009900&quot;&gt;Complete&lt;/td&gt; &lt;!-- Launch --&gt;
+    &lt;td bgcolor=&quot;#009900&quot;&gt;&lt;/td&gt; &lt;!-- Sunset--&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td class=&quot;a&quot;&gt;Education Benefits Content&lt;/td&gt;
+    &lt;td&gt;Kelly&lt;/td&gt; &lt;!-- Lead --&gt;
+    &lt;td&gt;Jennifer Rudisill&lt;/td&gt; &lt;!-- VA Business Owner --&gt;
+    &lt;td bgcolor=&quot;#009900&quot;&gt;Complete&lt;/td&gt; &lt;!-- Product Defintion --&gt;
+    &lt;td bgcolor=&quot;#009900&quot;&gt;Complete&lt;/td&gt; &lt;!-- Discovery --&gt;  
+    &lt;td bgcolor=&quot;#009900&quot;&gt;Complete&lt;/td&gt; &lt;!-- Alpha --&gt;
+    &lt;td bgcolor=&quot;#009900&quot;&gt;Complete&lt;/td&gt; &lt;!-- Beta --&gt;
+    &lt;td bgcolor=&quot;#009900&quot;&gt;Complete&lt;/td&gt; &lt;!-- Testing --&gt;
+    &lt;td bgcolor=&quot;#009900&quot;&gt;Complete&lt;/td&gt; &lt;!-- Launch --&gt;
+    &lt;td bgcolor=&quot;#009900&quot;&gt;&lt;/td&gt; &lt;!-- Sunset--&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td class=&quot;a&quot;&gt;Facility Locator - Service and Facility Locator&lt;/td&gt;
+    &lt;td&gt;Rick&lt;/td&gt; &lt;!-- Lead --&gt;
+    &lt;td&gt;Dat Tran&lt;/td&gt; &lt;!-- VA Business Owner --&gt;
+    &lt;td bgcolor=&quot;#009900&quot;&gt;Complete&lt;/td&gt; &lt;!-- Product Defintion --&gt;
+    &lt;td bgcolor=&quot;#009900&quot;&gt;&lt;/td&gt; &lt;!-- Discovery --&gt;  
+    &lt;td&gt;&lt;/td&gt; &lt;!-- Alpha --&gt;
+    &lt;td&gt;&lt;/td&gt; &lt;!-- Beta --&gt;
+    &lt;td&gt;&lt;/td&gt; &lt;!-- Testing --&gt;
+    &lt;td&gt;&lt;/td&gt; &lt;!-- Launch --&gt;
+    &lt;td&gt;&lt;/td&gt; &lt;!-- Sunset--&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td class=&quot;a&quot;&gt;Facility Locator - Beta Release&lt;/td&gt;
+    &lt;td&gt;Kelly&lt;/td&gt; &lt;!-- Lead --&gt;
+    &lt;td&gt;Dat Tran&lt;/td&gt; &lt;!-- VA Business Owner --&gt;
+    &lt;td bgcolor=&quot;#009900&quot;&gt;Complete&lt;/td&gt; &lt;!-- Product Defintion --&gt;
+    &lt;td bgcolor=&quot;#009900&quot;&gt;Complete&lt;/td&gt; &lt;!-- Discovery --&gt;  
+    &lt;td bgcolor=&quot;#009900&quot;&gt;Complete&lt;/td&gt; &lt;!-- Alpha --&gt;
+    &lt;td bgcolor=&quot;#009900&quot;&gt;Complete&lt;/td&gt; &lt;!-- Beta --&gt;
+    &lt;td bgcolor=&quot;#009900&quot;&gt;Complete&lt;/td&gt; &lt;!-- Testing --&gt;
+    &lt;td bgcolor=&quot;#009900&quot;&gt;Complete&lt;/td&gt; &lt;!-- Launch --&gt;
+    &lt;td&gt;&lt;/td&gt; &lt;!-- Sunset--&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td class=&quot;a&quot;&gt;GI Bill Comparison Tool - Beta Release&lt;/td&gt;
+    &lt;td&gt;Rick&lt;/td&gt; &lt;!-- Lead --&gt;
+    &lt;td&gt;Curt Coy&lt;/td&gt; &lt;!-- VA Business Owner --&gt;
+    &lt;td bgcolor=&quot;#009900&quot;&gt;Complete&lt;/td&gt; &lt;!-- Product Defintion --&gt;
+    &lt;td bgcolor=&quot;#009900&quot;&gt;Complete&lt;/td&gt; &lt;!-- Discovery --&gt;  
+    &lt;td bgcolor=&quot;#009900&quot;&gt;Complete&lt;/td&gt; &lt;!-- Alpha --&gt;
+    &lt;td bgcolor=&quot;#009900&quot;&gt;Complete&lt;/td&gt; &lt;!-- Beta --&gt;
+    &lt;td bgcolor=&quot;#009900&quot;&gt;Complete&lt;/td&gt; &lt;!-- Testing --&gt;
+    &lt;td bgcolor=&quot;#009900&quot;&gt;Complete&lt;/td&gt; &lt;!-- Launch --&gt;
+    &lt;td bgcolor=&quot;#009900&quot;&gt;&lt;/td&gt; &lt;!-- Sunset--&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td class=&quot;a&quot;&gt;GI Bill Comparison Tool - Data Service&lt;/td&gt;
+    &lt;td&gt;Rick&lt;/td&gt; &lt;!-- Lead --&gt;
+    &lt;td&gt;Curt Coy&lt;/td&gt; &lt;!-- VA Business Owner --&gt;
+    &lt;td bgcolor=&quot;#009900&quot;&gt;&lt;/td&gt; &lt;!-- Product Defintion --&gt;
+    &lt;td bgcolor=&quot;#009900&quot;&gt;&lt;/td&gt; &lt;!-- Discovery --&gt;  
+    &lt;td&gt;&lt;/td&gt; &lt;!-- Alpha --&gt;
+    &lt;td&gt;&lt;/td&gt; &lt;!-- Beta --&gt;
+    &lt;td&gt;&lt;/td&gt; &lt;!-- Testing --&gt;
+    &lt;td&gt;&lt;/td&gt; &lt;!-- Launch --&gt;
+    &lt;td&gt;&lt;/td&gt; &lt;!-- Sunset--&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td class=&quot;a&quot;&gt;GI Bill Comparison Tool - Outcome Measures&lt;/td&gt;
+    &lt;td&gt;Rick&lt;/td&gt; &lt;!-- Lead --&gt;
+    &lt;td&gt;Curt Coy&lt;/td&gt; &lt;!-- VA Business Owner --&gt;
+    &lt;td bgcolor=&quot;#009900&quot;&gt;Complete&lt;/td&gt; &lt;!-- Product Defintion --&gt;
+    &lt;td bgcolor=&quot;#009900&quot;&gt;Complete&lt;/td&gt; &lt;!-- Discovery --&gt;  
+    &lt;td bgcolor=&quot;#009900&quot;&gt;Complete&lt;/td&gt; &lt;!-- Alpha --&gt;
+    &lt;td bgcolor=&quot;#009900&quot;&gt;Complete&lt;/td&gt; &lt;!-- Beta --&gt;
+    &lt;td bgcolor=&quot;#009900&quot;&gt;Complete&lt;/td&gt; &lt;!-- Testing --&gt;
+    &lt;td bgcolor=&quot;#009900&quot;&gt;Complete&lt;/td&gt; &lt;!-- Launch --&gt;
+    &lt;td bgcolor=&quot;#009900&quot;&gt;&lt;/td&gt; &lt;!-- Sunset--&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td class=&quot;a&quot;&gt;GI Bill Comparison Tool - School Ratings&lt;/td&gt;
+    &lt;td&gt;Rick&lt;/td&gt; &lt;!-- Lead --&gt;
+    &lt;td&gt;Curt Coy&lt;/td&gt; &lt;!-- VA Business Owner --&gt;
+    &lt;td bgcolor=&quot;#009900&quot;&gt;&lt;/td&gt; &lt;!-- Product Defintion --&gt;
+    &lt;td bgcolor=&quot;#009900&quot;&gt;&lt;/td&gt; &lt;!-- Discovery --&gt;  
+    &lt;td&gt;&lt;/td&gt; &lt;!-- Alpha --&gt;
+    &lt;td&gt;&lt;/td&gt; &lt;!-- Beta --&gt;
+    &lt;td&gt;&lt;/td&gt; &lt;!-- Testing --&gt;
+    &lt;td&gt;&lt;/td&gt; &lt;!-- Launch --&gt;
+    &lt;td&gt;&lt;/td&gt; &lt;!-- Sunset--&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td class=&quot;a&quot;&gt;Veterans Online Application&lt;/td&gt;
+    &lt;td&gt;Emily T&lt;/td&gt; &lt;!-- Lead --&gt;
+    &lt;td&gt;Joan Hall&lt;/td&gt; &lt;!-- VA Business Owner --&gt;
+    &lt;td bgcolor=&quot;#009900&quot;&gt;&lt;/td&gt; &lt;!-- Product Defintion --&gt;
+    &lt;td bgcolor=&quot;#009900&quot;&gt;&lt;/td&gt; &lt;!-- Discovery --&gt;  
+    &lt;td&gt;&lt;/td&gt; &lt;!-- Alpha --&gt;
+    &lt;td&gt;&lt;/td&gt; &lt;!-- Beta --&gt;
+    &lt;td&gt;&lt;/td&gt; &lt;!-- Testing --&gt;
+    &lt;td&gt;&lt;/td&gt; &lt;!-- Launch --&gt;
+    &lt;td&gt;&lt;/td&gt; &lt;!-- Sunset--&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td class=&quot;a&quot;&gt;Kelly Test 1&lt;/td&gt;
+    &lt;td&gt;Kelly&lt;/td&gt; &lt;!-- Lead --&gt;
+    &lt;td&gt;Kelly&lt;/td&gt; &lt;!-- VA Business Owner --&gt;
+    &lt;td bgcolor=&quot;#009900&quot;&gt;Complete&lt;/td&gt; &lt;!-- Product Defintion --&gt;
+    &lt;td bgcolor=&quot;#009900&quot;&gt;Complete&lt;/td&gt; &lt;!-- Discovery --&gt;  
+    &lt;td bgcolor=&quot;yellow&quot;&gt;&lt;/td&gt; &lt;!-- Alpha --&gt;
+    &lt;td bgcolor=&quot;red&quot;&gt;&lt;/td&gt; &lt;!-- Beta --&gt;
+    &lt;td&gt;&lt;/td&gt; &lt;!-- Testing --&gt;
+    &lt;td&gt;&lt;/td&gt; &lt;!-- Launch --&gt;
+    &lt;td&gt;&lt;/td&gt; &lt;!-- Sunset--&gt;
+  &lt;/tr&gt;
+  
+  &lt;tr&gt;
+    &lt;td class=&quot;a&quot;&gt;&lt;a href=&quot;file:///Users/vacoyalela/Documents/Dashboard/1B_KellyTest2.html&quot;&gt;Kelly Test 2&lt;/a&gt;&lt;/td&gt;
+    &lt;td&gt;Kelly&lt;/td&gt; &lt;!-- Lead --&gt;
+    &lt;td&gt;Kelly&lt;/td&gt; &lt;!-- VA Business Owner --&gt;
+    &lt;td bgcolor=&quot;#009900&quot;&gt;Complete&lt;/td&gt; &lt;!-- Product Defintion --&gt;
+    &lt;td bgcolor=&quot;red&quot;&gt;&lt;/td&gt; &lt;!-- Discovery --&gt;  
+    &lt;td bgcolor=&quot;yellow&quot;&gt;&lt;/td&gt; &lt;!-- Alpha --&gt;
+    &lt;td&gt;&lt;/td&gt; &lt;!-- Beta --&gt;
+    &lt;td&gt;&lt;/td&gt; &lt;!-- Testing --&gt;
+    &lt;td&gt;&lt;/td&gt; &lt;!-- Launch --&gt;
+    &lt;td&gt;&lt;/td&gt; &lt;!-- Sunset--&gt;
+  &lt;/tr&gt;
+&lt;/table&gt;
+&lt;p&gt;&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;h3&gt;Legend&lt;/h3&gt;
+&lt;table class=&quot;c&quot;&gt;
+  &lt;tr&gt;
+    &lt;th class=&quot;a&quot;&gt;Symbol&lt;/th&gt;
+    &lt;th&gt;Meaning&lt;/th&gt;    
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td bgcolor=&quot;#009900&quot;&gt;Complete&lt;/td&gt;
+    &lt;td&gt;Completed&lt;/td&gt;    
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td bgcolor=&quot;#009900&quot;&gt;&lt;/td&gt;
+    &lt;td&gt;In Progress - No Blockers&lt;/td&gt;    
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td bgcolor=&quot;yellow&quot;&gt;&lt;/td&gt;
+    &lt;td&gt;Low/Moderate risk blockers require possible escalation&lt;/td&gt;   
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td bgcolor=&quot;red&quot;&gt;&lt;/td&gt;
+    &lt;td&gt;High risk blockers require escalation&lt;/td&gt;    
+  &lt;/tr&gt;
+  &lt;td&gt;&lt;/td&gt;
+  &lt;td&gt;Not Yet Started&lt;/td&gt;  
+  &lt;tr&gt;
+    &lt;td bgcolor=&quot;808080&quot;&gt;&lt;/td&gt;
+    &lt;td&gt;Not applicable for this product&lt;/td&gt;    
+  &lt;/tr&gt;
+&lt;/table&gt;
+</description>
+        <pubDate>Wed, 27 Jan 2016 19:49:12 -0800</pubDate>
+        <link>http://vets.gov/status-report/jekyll/update/2016/01/27/high-level-dashboard.html</link>
+        <guid isPermaLink="true">http://vets.gov/status-report/jekyll/update/2016/01/27/high-level-dashboard.html</guid>
+        
+        
+        <category>jekyll</category>
+        
+        <category>update</category>
+        
+      </item>
+    
+  </channel>
+</rss>
