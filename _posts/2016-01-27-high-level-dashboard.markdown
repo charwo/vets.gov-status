@@ -4,190 +4,55 @@ title:  "High Level Dashboard"
 date:   2016-01-27 19:49:12 -0800
 categories: jekyll update
 ---
+<head>
+        <meta charset="utf-8">
+        <style>
+            table {
+                border-collapse: collapse;
+                border: 2px black solid;
+                font: 12px sans-serif;
+            }
 
-<style>
-table {
-    width:100%;
-}
-table, th, td {
-    border: 1px solid black;
-    border-collapse: collapse;
-    text-align: center;
-    word-wrap: break-word;
-}
+            td {
+                border: 1px black solid;
+                padding: 5px;
+            }
+        </style>
+    </head>
+<body>
+<script src="http://d3js.org/d3.v3.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+<script type="text/javascript" charset="utf-8">
+    d3.text("/executiveDashboard.csv", function(data) {
+        var parsedCSV = d3.csv.parseRows(data);
 
-.a {
-  width: 25%;
-}
+        var container = d3.select("#t01")
 
-.c {
-  width:30%;
-}
+            .selectAll("tr")
+                .data(parsedCSV).enter()
+                .append("tr")
 
-green {
-    background-color: red;
-    color: green;
-}
+            .selectAll("td")
+                .data(function(d) { return d; }).enter()
+                .append("td")
+                .text(function(d) { return d; });
+            fixColors();    
+    });
+    
+    function fixColors() {
+       $('#t01 td:contains(Complete)').css('background-color', 'green')
+       $('#t01 td:contains(Green)').css('background-color', 'green')
+       $('#t01 td:contains(Green)').css('color', 'green')
+       $('#t01 td:contains(Yellow)').css('color', 'yellow')
+       $('#t01 td:contains(Yellow)').css('background-color', 'yellow')
+       $('#t01 td:contains(Red)').css('color', 'red')
+       $('#t01 td:contains(Red)').css('background-color', 'red')
+       
+    }
+</script>
 
-completed {
-    background-color: green;
-    color: black;
-}
-
-table#t01 th  {
-    background-color: black;
-    color: white;
-}
-</style>
-
-<table id="t01">
-  <tr>
-    <th class="a">Name</th>
-    <th>Product Lead</th>
-    <th>VA Business Owner</th>
-    <th>Product Definition</th>   
-    <th>Discovery</th>
-    <th>Alpha</th>
-    <th>Beta</th>
-    <th>Pre Flight</th>
-    <th>Go Live</th>
-    <th>Sunset</th>
-  </tr>
-  <tr>
-    <td class="a">Disability Benefits Content</td> <!-- Name -->
-    <td>Kelly</td> <!-- Lead -->
-    <td>Jennifer Rudisill</td> <!-- VA Business Owner -->
-    <td bgcolor="#009900">Complete</td> <!-- Product Defintion -->
-    <td bgcolor="#009900">Complete</td> <!-- Discovery -->  
-    <td bgcolor="#009900">Complete</td> <!-- Alpha -->
-    <td bgcolor="#009900">Complete</td> <!-- Beta -->
-    <td bgcolor="#009900">Complete</td> <!-- Testing -->
-    <td bgcolor="#009900">Complete</td> <!-- Launch -->
-    <td bgcolor="#009900"></td> <!-- Sunset-->
-  </tr>
-  <tr>
-    <td class="a">Education Benefits Content</td>
-    <td>Kelly</td> <!-- Lead -->
-    <td>Jennifer Rudisill</td> <!-- VA Business Owner -->
-    <td bgcolor="#009900">Complete</td> <!-- Product Defintion -->
-    <td bgcolor="#009900">Complete</td> <!-- Discovery -->  
-    <td bgcolor="#009900">Complete</td> <!-- Alpha -->
-    <td bgcolor="#009900">Complete</td> <!-- Beta -->
-    <td bgcolor="#009900">Complete</td> <!-- Testing -->
-    <td bgcolor="#009900">Complete</td> <!-- Launch -->
-    <td bgcolor="#009900"></td> <!-- Sunset-->
-  </tr>
-  <tr>
-    <td class="a">Facility Locator - Service and Facility Locator</td>
-    <td>Rick</td> <!-- Lead -->
-    <td>Dat Tran</td> <!-- VA Business Owner -->
-    <td bgcolor="#009900">Complete</td> <!-- Product Defintion -->
-    <td bgcolor="#009900"></td> <!-- Discovery -->  
-    <td></td> <!-- Alpha -->
-    <td></td> <!-- Beta -->
-    <td></td> <!-- Testing -->
-    <td></td> <!-- Launch -->
-    <td></td> <!-- Sunset-->
-  </tr>
-  <tr>
-    <td class="a">Facility Locator - Beta Release</td>
-    <td>Kelly</td> <!-- Lead -->
-    <td>Dat Tran</td> <!-- VA Business Owner -->
-    <td bgcolor="#009900">Complete</td> <!-- Product Defintion -->
-    <td bgcolor="#009900">Complete</td> <!-- Discovery -->  
-    <td bgcolor="#009900">Complete</td> <!-- Alpha -->
-    <td bgcolor="#009900">Complete</td> <!-- Beta -->
-    <td bgcolor="#009900">Complete</td> <!-- Testing -->
-    <td bgcolor="#009900">Complete</td> <!-- Launch -->
-    <td></td> <!-- Sunset-->
-  </tr>
-  <tr>
-    <td class="a">GI Bill Comparison Tool - Beta Release</td>
-    <td>Rick</td> <!-- Lead -->
-    <td>Curt Coy</td> <!-- VA Business Owner -->
-    <td bgcolor="#009900">Complete</td> <!-- Product Defintion -->
-    <td bgcolor="#009900">Complete</td> <!-- Discovery -->  
-    <td bgcolor="#009900">Complete</td> <!-- Alpha -->
-    <td bgcolor="#009900">Complete</td> <!-- Beta -->
-    <td bgcolor="#009900">Complete</td> <!-- Testing -->
-    <td bgcolor="#009900">Complete</td> <!-- Launch -->
-    <td bgcolor="#009900"></td> <!-- Sunset-->
-  </tr>
-  <tr>
-    <td class="a">GI Bill Comparison Tool - Data Service</td>
-    <td>Rick</td> <!-- Lead -->
-    <td>Curt Coy</td> <!-- VA Business Owner -->
-    <td bgcolor="#009900"></td> <!-- Product Defintion -->
-    <td bgcolor="#009900"></td> <!-- Discovery -->  
-    <td></td> <!-- Alpha -->
-    <td></td> <!-- Beta -->
-    <td></td> <!-- Testing -->
-    <td></td> <!-- Launch -->
-    <td></td> <!-- Sunset-->
-  </tr>
-  <tr>
-    <td class="a">GI Bill Comparison Tool - Outcome Measures</td>
-    <td>Rick</td> <!-- Lead -->
-    <td>Curt Coy</td> <!-- VA Business Owner -->
-    <td bgcolor="#009900">Complete</td> <!-- Product Defintion -->
-    <td bgcolor="#009900">Complete</td> <!-- Discovery -->  
-    <td bgcolor="#009900">Complete</td> <!-- Alpha -->
-    <td bgcolor="#009900">Complete</td> <!-- Beta -->
-    <td bgcolor="#009900">Complete</td> <!-- Testing -->
-    <td bgcolor="#009900">Complete</td> <!-- Launch -->
-    <td bgcolor="#009900"></td> <!-- Sunset-->
-  </tr>
-  <tr>
-    <td class="a">GI Bill Comparison Tool - School Ratings</td>
-    <td>Rick</td> <!-- Lead -->
-    <td>Curt Coy</td> <!-- VA Business Owner -->
-    <td bgcolor="#009900"></td> <!-- Product Defintion -->
-    <td bgcolor="#009900"></td> <!-- Discovery -->  
-    <td></td> <!-- Alpha -->
-    <td></td> <!-- Beta -->
-    <td></td> <!-- Testing -->
-    <td></td> <!-- Launch -->
-    <td></td> <!-- Sunset-->
-  </tr>
-  <tr>
-    <td class="a">Veterans Online Application</td>
-    <td>Emily T</td> <!-- Lead -->
-    <td>Joan Hall</td> <!-- VA Business Owner -->
-    <td bgcolor="#009900"></td> <!-- Product Defintion -->
-    <td bgcolor="#009900"></td> <!-- Discovery -->  
-    <td></td> <!-- Alpha -->
-    <td></td> <!-- Beta -->
-    <td></td> <!-- Testing -->
-    <td></td> <!-- Launch -->
-    <td></td> <!-- Sunset-->
-  </tr>
-  <tr>
-    <td class="a">Kelly Test 1</td>
-    <td>Kelly</td> <!-- Lead -->
-    <td>Kelly</td> <!-- VA Business Owner -->
-    <td bgcolor="#009900">Complete</td> <!-- Product Defintion -->
-    <td bgcolor="#009900">Complete</td> <!-- Discovery -->  
-    <td bgcolor="yellow"></td> <!-- Alpha -->
-    <td bgcolor="red"></td> <!-- Beta -->
-    <td></td> <!-- Testing -->
-    <td></td> <!-- Launch -->
-    <td></td> <!-- Sunset-->
-  </tr>
-  
-  <tr>
-    <td class="a"><a href="file:///Users/vacoyalela/Documents/Dashboard/1B_KellyTest2.html">Kelly Test 2</a></td>
-    <td>Kelly</td> <!-- Lead -->
-    <td>Kelly</td> <!-- VA Business Owner -->
-    <td bgcolor="#009900">Complete</td> <!-- Product Defintion -->
-    <td bgcolor="red"></td> <!-- Discovery -->  
-    <td bgcolor="yellow"></td> <!-- Alpha -->
-    <td></td> <!-- Beta -->
-    <td></td> <!-- Testing -->
-    <td></td> <!-- Launch -->
-    <td></td> <!-- Sunset-->
-  </tr>
-</table>
-<br><br><br><br><br><br><br><br><br>
+<table id="t01"> </table>
+<br><br><br><br>
 <h3>Legend</h3>
 <table class="c">
   <tr>
@@ -217,3 +82,6 @@ table#t01 th  {
     <td>Not applicable for this product</td>    
   </tr>
 </table>
+</body>
+
+
