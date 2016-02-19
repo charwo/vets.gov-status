@@ -1,3 +1,41 @@
+table {
+    border-collapse: collapse;
+    font: 12px sans-serif;
+}
+
+.status {
+    width: 20px;
+    height: 10px;
+    display: inline-block;
+}
+
+.complete {
+    background-color: #347C17;
+}
+.in-progress {
+    background-color: #009900;
+}
+.low-risk {
+    background-color: yellow;
+}
+.high-risk {
+    background-color: red;
+}
+.not-started {
+    background-color: #fff;
+    border: 1px solid #999;
+}
+.not-applicable {
+    background-color: #808080;
+}
+ul li:before {
+    content: "";
+}
+ul.legend li{
+    list-style: none;
+    display: inline-block;
+}
+
 /**
  * Site header
  */

@@ -6,7 +6,11 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>High Level Dashboard</title>
+  <script src="http://d3js.org/d3.v3.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+  <script async src="/assets/js/csv2table.js"></script>
+  
+  <title>Migration Status Dashboard</title>
   <meta name="description" content="">
 
   <link rel="stylesheet" href="/css/main.css">
@@ -57,223 +61,26 @@
         <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
   <header class="post-header">
-    <h1 class="post-title" itemprop="name headline">High Level Dashboard</h1>
-    <p class="post-meta"><time datetime="2016-01-27T19:49:12-08:00" itemprop="datePublished">Jan 27, 2016</time></p>
+    <h1 class="post-title" itemprop="name headline">Migration Status Dashboard</h1>
   </header>
 
   <div class="post-content" itemprop="articleBody">
-    <style>
-table {
-    width:100%;
-}
-table, th, td {
-    border: 1px solid black;
-    border-collapse: collapse;
-    text-align: center;
-    word-wrap: break-word;
-}
+    <body>
 
-.a {
-  width: 25%;
-}
+<ul class="legend">
+    <li><span class="status complete"></span> Completed</li>
+    <li><span class="status in-progress"></span> In Progress </li>
+    <li><span class="status low-risk"></span> Low/Moderate risk*</li>
+    <li><span class="status high-risk"></span> High risk* </li>
+    <li><span class="status not-started"></span> Not Started</li>
+<!--     <li><span class="status not-applicable"></span> Not applicable</li>
+ --></ul>
 
-.c {
-  width:30%;
-}
+<p class="note">* May require escalation</p>
+<table id="t01"> </table>
 
-green {
-    background-color: red;
-    color: green;
-}
+</body>
 
-completed {
-    background-color: green;
-    color: black;
-}
-
-table#t01 th  {
-    background-color: black;
-    color: white;
-}
-</style>
-
-<table id="t01">
-  <tr>
-    <th class="a">Name</th>
-    <th>Product Lead</th>
-    <th>VA Business Owner</th>
-    <th>Product Definition</th>   
-    <th>Discovery</th>
-    <th>Alpha</th>
-    <th>Beta</th>
-    <th>Pre Flight</th>
-    <th>Go Live</th>
-    <th>Sunset</th>
-  </tr>
-  <tr>
-    <td class="a">Disability Benefits Content</td> <!-- Name -->
-    <td>Kelly</td> <!-- Lead -->
-    <td>Jennifer Rudisill</td> <!-- VA Business Owner -->
-    <td bgcolor="#009900">Complete</td> <!-- Product Defintion -->
-    <td bgcolor="#009900">Complete</td> <!-- Discovery -->  
-    <td bgcolor="#009900">Complete</td> <!-- Alpha -->
-    <td bgcolor="#009900">Complete</td> <!-- Beta -->
-    <td bgcolor="#009900">Complete</td> <!-- Testing -->
-    <td bgcolor="#009900">Complete</td> <!-- Launch -->
-    <td bgcolor="#009900"></td> <!-- Sunset-->
-  </tr>
-  <tr>
-    <td class="a">Education Benefits Content</td>
-    <td>Kelly</td> <!-- Lead -->
-    <td>Jennifer Rudisill</td> <!-- VA Business Owner -->
-    <td bgcolor="#009900">Complete</td> <!-- Product Defintion -->
-    <td bgcolor="#009900">Complete</td> <!-- Discovery -->  
-    <td bgcolor="#009900">Complete</td> <!-- Alpha -->
-    <td bgcolor="#009900">Complete</td> <!-- Beta -->
-    <td bgcolor="#009900">Complete</td> <!-- Testing -->
-    <td bgcolor="#009900">Complete</td> <!-- Launch -->
-    <td bgcolor="#009900"></td> <!-- Sunset-->
-  </tr>
-  <tr>
-    <td class="a">Facility Locator - Service and Facility Locator</td>
-    <td>Rick</td> <!-- Lead -->
-    <td>Dat Tran</td> <!-- VA Business Owner -->
-    <td bgcolor="#009900">Complete</td> <!-- Product Defintion -->
-    <td bgcolor="#009900"></td> <!-- Discovery -->  
-    <td></td> <!-- Alpha -->
-    <td></td> <!-- Beta -->
-    <td></td> <!-- Testing -->
-    <td></td> <!-- Launch -->
-    <td></td> <!-- Sunset-->
-  </tr>
-  <tr>
-    <td class="a">Facility Locator - Beta Release</td>
-    <td>Kelly</td> <!-- Lead -->
-    <td>Dat Tran</td> <!-- VA Business Owner -->
-    <td bgcolor="#009900">Complete</td> <!-- Product Defintion -->
-    <td bgcolor="#009900">Complete</td> <!-- Discovery -->  
-    <td bgcolor="#009900">Complete</td> <!-- Alpha -->
-    <td bgcolor="#009900">Complete</td> <!-- Beta -->
-    <td bgcolor="#009900">Complete</td> <!-- Testing -->
-    <td bgcolor="#009900">Complete</td> <!-- Launch -->
-    <td></td> <!-- Sunset-->
-  </tr>
-  <tr>
-    <td class="a">GI Bill Comparison Tool - Beta Release</td>
-    <td>Rick</td> <!-- Lead -->
-    <td>Curt Coy</td> <!-- VA Business Owner -->
-    <td bgcolor="#009900">Complete</td> <!-- Product Defintion -->
-    <td bgcolor="#009900">Complete</td> <!-- Discovery -->  
-    <td bgcolor="#009900">Complete</td> <!-- Alpha -->
-    <td bgcolor="#009900">Complete</td> <!-- Beta -->
-    <td bgcolor="#009900">Complete</td> <!-- Testing -->
-    <td bgcolor="#009900">Complete</td> <!-- Launch -->
-    <td bgcolor="#009900"></td> <!-- Sunset-->
-  </tr>
-  <tr>
-    <td class="a">GI Bill Comparison Tool - Data Service</td>
-    <td>Rick</td> <!-- Lead -->
-    <td>Curt Coy</td> <!-- VA Business Owner -->
-    <td bgcolor="#009900"></td> <!-- Product Defintion -->
-    <td bgcolor="#009900"></td> <!-- Discovery -->  
-    <td></td> <!-- Alpha -->
-    <td></td> <!-- Beta -->
-    <td></td> <!-- Testing -->
-    <td></td> <!-- Launch -->
-    <td></td> <!-- Sunset-->
-  </tr>
-  <tr>
-    <td class="a">GI Bill Comparison Tool - Outcome Measures</td>
-    <td>Rick</td> <!-- Lead -->
-    <td>Curt Coy</td> <!-- VA Business Owner -->
-    <td bgcolor="#009900">Complete</td> <!-- Product Defintion -->
-    <td bgcolor="#009900">Complete</td> <!-- Discovery -->  
-    <td bgcolor="#009900">Complete</td> <!-- Alpha -->
-    <td bgcolor="#009900">Complete</td> <!-- Beta -->
-    <td bgcolor="#009900">Complete</td> <!-- Testing -->
-    <td bgcolor="#009900">Complete</td> <!-- Launch -->
-    <td bgcolor="#009900"></td> <!-- Sunset-->
-  </tr>
-  <tr>
-    <td class="a">GI Bill Comparison Tool - School Ratings</td>
-    <td>Rick</td> <!-- Lead -->
-    <td>Curt Coy</td> <!-- VA Business Owner -->
-    <td bgcolor="#009900"></td> <!-- Product Defintion -->
-    <td bgcolor="#009900"></td> <!-- Discovery -->  
-    <td></td> <!-- Alpha -->
-    <td></td> <!-- Beta -->
-    <td></td> <!-- Testing -->
-    <td></td> <!-- Launch -->
-    <td></td> <!-- Sunset-->
-  </tr>
-  <tr>
-    <td class="a">Veterans Online Application</td>
-    <td>Emily T</td> <!-- Lead -->
-    <td>Joan Hall</td> <!-- VA Business Owner -->
-    <td bgcolor="#009900"></td> <!-- Product Defintion -->
-    <td bgcolor="#009900"></td> <!-- Discovery -->  
-    <td></td> <!-- Alpha -->
-    <td></td> <!-- Beta -->
-    <td></td> <!-- Testing -->
-    <td></td> <!-- Launch -->
-    <td></td> <!-- Sunset-->
-  </tr>
-  <tr>
-    <td class="a">Kelly Test 1</td>
-    <td>Kelly</td> <!-- Lead -->
-    <td>Kelly</td> <!-- VA Business Owner -->
-    <td bgcolor="#009900">Complete</td> <!-- Product Defintion -->
-    <td bgcolor="#009900">Complete</td> <!-- Discovery -->  
-    <td bgcolor="yellow"></td> <!-- Alpha -->
-    <td bgcolor="red"></td> <!-- Beta -->
-    <td></td> <!-- Testing -->
-    <td></td> <!-- Launch -->
-    <td></td> <!-- Sunset-->
-  </tr>
-  
-  <tr>
-    <td class="a"><a href="file:///Users/vacoyalela/Documents/Dashboard/1B_KellyTest2.html">Kelly Test 2</a></td>
-    <td>Kelly</td> <!-- Lead -->
-    <td>Kelly</td> <!-- VA Business Owner -->
-    <td bgcolor="#009900">Complete</td> <!-- Product Defintion -->
-    <td bgcolor="red"></td> <!-- Discovery -->  
-    <td bgcolor="yellow"></td> <!-- Alpha -->
-    <td></td> <!-- Beta -->
-    <td></td> <!-- Testing -->
-    <td></td> <!-- Launch -->
-    <td></td> <!-- Sunset-->
-  </tr>
-</table>
-<p><br /><br /><br /><br /><br /><br /><br /><br /><br /></p>
-<h3>Legend</h3>
-<table class="c">
-  <tr>
-    <th class="a">Symbol</th>
-    <th>Meaning</th>    
-  </tr>
-  <tr>
-    <td bgcolor="#009900">Complete</td>
-    <td>Completed</td>    
-  </tr>
-  <tr>
-    <td bgcolor="#009900"></td>
-    <td>In Progress - No Blockers</td>    
-  </tr>
-  <tr>
-    <td bgcolor="yellow"></td>
-    <td>Low/Moderate risk blockers require possible escalation</td>   
-  </tr>
-  <tr>
-    <td bgcolor="red"></td>
-    <td>High risk blockers require escalation</td>    
-  </tr>
-  <td></td>
-  <td>Not Yet Started</td>  
-  <tr>
-    <td bgcolor="808080"></td>
-    <td>Not applicable for this product</td>    
-  </tr>
-</table>
 
   </div>
 
