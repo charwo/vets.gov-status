@@ -12,11 +12,11 @@ A dashboard for Vets.gov projects, and the status of development.
 2. Clone this repository
 3. Serve the project locally
   ```
-  jekyll serve
+  bundle exec jekyll serve
   ```
 4. Build the project locally
   ```
-  jekyll build
+  bundle exec jekyll build
   ```
 
 ## License
