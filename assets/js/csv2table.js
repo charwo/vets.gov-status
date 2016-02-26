@@ -30,7 +30,7 @@ d3.text("/executiveDashboard.csv", function (data) {
     
     
     function fixColors() {
-       $('#t01 td:contains(Complete)').css('background-color', 'green')
+       $('#t01 td:contains(Complete)').css('background-color', '#C0C0C0')
        $('#t01 td:contains(Green)').css('background-color', 'green')
        $('#t01 td:contains(Green)').css('color', 'green')
        $('#t01 td:contains(Yellow)').css('color', 'yellow')
