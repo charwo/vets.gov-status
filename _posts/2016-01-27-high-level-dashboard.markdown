@@ -15,7 +15,7 @@ categories: jekyll update
 <p class="note">* Risks being managed by team, but may require escalation<br>
 ** requires action / assistance</p>
 <table id="t01"> </table>
-
+<script>fillTable("#t01", "/executiveDashboard.csv"); </script>
 </body>
 
 
