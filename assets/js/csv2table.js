@@ -26,7 +26,7 @@ function fillTable(tableid, fileName) {
               .selectAll("td")
               .data(function(d){return d;})
               .enter().append("td")
-              .text(function(d){return d;})
+              .html(function(d){return d;})
           
           fixColors();    
       
