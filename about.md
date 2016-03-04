@@ -4,12 +4,18 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
+The vets.gov migration status dashboard summarizes the work currently underway to migrate content, forms, and services to vets.gov. Each product has a status as it moves through our standard <a href="https://www.vets.gov/playbook/product-methodology/">vets.gov product methodology</a>. Status is updated weekly by vets.gov product leads using the following legend:
+<br>
+<ul class="legend">
+    <li><span class="status complete"></span> Complete</li>
+    <li><span class="status in-progress"></span> In Progress </li>
+    <li><span class="status low-risk"></span> Risk of Delay*</li>
+    <li><span class="status high-risk"></span> Delayed** </li>
+    <li><span class="status not-started"></span> Not Started</li>
+</ul>
 
-You can find the source code for the Jekyll new theme at:
-{% include icon-github.html username="jglovier" %} /
-[jekyll-new](https://github.com/jglovier/jekyll-new)
+<p class="note">* Risks being managed by team, but may require escalation<br>
+** requires action / assistance</p>
+<br>
 
-You can find the source code for Jekyll at
-{% include icon-github.html username="jekyll" %} /
-[jekyll](https://github.com/jekyll/jekyll)
+This scope of this tool is limited to new and existing content, forms, and services that are being developed and launched on vets.gov in 2016.  If you have any questions, please contact vavetsgov-team@va.gov.
