@@ -3,6 +3,7 @@ layout: post
 categories: jekyll update
 ---
 <body>
+<h2 id="product_heading"></h2><br>
 
 <ul class="legend">
     <li><span class="status complete"></span> Complete</li>
@@ -39,7 +40,7 @@ categories: jekyll update
   fillTable("#t03", "/product_csv_files/" + title + "/prototype.csv");
   fillTable("#t04", "/product_csv_files/" + title + "/pre_flight.csv");
   fillTable("#t05", "/product_csv_files/" + title + "/go_live.csv");
-
+  writeProductDetails();
 </script>
 </body>
 

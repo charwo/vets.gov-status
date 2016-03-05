@@ -32,7 +32,6 @@ function fillTable(tableid, fileName) {
       
       
       function fixColors() {
-         $(tableid + ' td:contains(Complete)').css('background-color', '#C0C0C0')
          $(tableid + ' td:contains(Green)').css('background-color', 'green')
          $(tableid + ' td:contains(Green)').css('color', 'green')
          $(tableid + ' td:contains(Yellow)').css('color', 'yellow')
@@ -40,6 +39,9 @@ function fillTable(tableid, fileName) {
          $(tableid + ' td:contains(Red)').css('color', 'red')
          $(tableid + ' td:contains(Red)').css('background-color', 'red')
          
+         $(tableid + ' td').filter(function() {
+            return $(this).text().toLowerCase() == "complete";
+          }).css('background-color', '#C0C0C0');
       }
   });
 }
