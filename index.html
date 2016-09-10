@@ -1,21 +1,33 @@
 ---
-layout: default
+title: Dashboard
 ---
 
-<div class="home">
+{% include header.html %}
 
-  <h1 class="page-heading">Dashboards</h1>
+    <div class="row">
 
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+      {% for project in site.data.projects %}
 
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
+        <div class="col-sm-6 col-md-4">
+          <a href="boards/{{project.board}}.html">
+            <div class="chart-wrapper">
+              <div class="chart-title">
+                {{project.name}}
+              </div>
+              <div class="chart-stage">
+                <div id="grid-1-1">
+                  <h2>{{project.datapoint}}</h2>
+                </div>
+              </div>
+              <div class="chart-notes">
+                {{project.context}}
+              </div>
+            </div>
+          </a>
+        </div>
 
-</div>
+      {% endfor %}
+
+    </div>
+
+{% include footer.html %}
