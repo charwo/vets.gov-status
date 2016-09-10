@@ -1,26 +1,20 @@
-# Vets.gov Status Dashboard
+# Vets.gov Executive Scorecard
 
-A dashboard for Vets.gov projects, and the status of development.
+A dashboard for Vets.gov projects executive scorecard
 
 ## Getting started
 
 1. Install Jekyll:
-  ```
-  npm install
-  # This will automatically run `bundle install` for Jekyll, too
-  ```
 2. Clone this repository
 3. Serve the project locally
   ```
-  bundle exec jekyll serve
-  ```
-4. Build the project locally
-  ```
-  bundle exec jekyll build
+  jekyll serve
   ```
 
 ## License
 
 [The MIT License (MIT)](LICENSE.md)
 
-Copyright © 2015 [Chloi Inc.](http://chloi.io)
+## Previous repo
+
+This repo previously held a now defunct dashboard. The prior work is archived as a release on this repo in case that work needs to be revisited.
