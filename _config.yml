@@ -1,3 +1,5 @@
 collections:
   boards:
     output: true
+
+exclude: [ 'scripts' ]

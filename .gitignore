@@ -1,4 +1,3 @@
 _site/
 .sass-cache
 *.lock
-product_csv_files/*
