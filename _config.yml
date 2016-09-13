@@ -2,4 +2,6 @@ collections:
   boards:
     output: true
 
-exclude: [ 'scripts' ]
+exclude: [ 'scripts', 'LICENSE', 'README.md' ]
+
+baseurl: "/vets.gov-status"

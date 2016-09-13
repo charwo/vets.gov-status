@@ -3,8 +3,8 @@
 <head>
   <title>{{page.title}}</title>
   <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no' />
-  <link rel="stylesheet" type="text/css" href="/assets/lib/bootstrap/dist/css/bootstrap.min.css" />
-  <link rel="stylesheet" type="text/css" href="/assets/css/keen-dashboards.css" />
+  <link rel="stylesheet" type="text/css" href="{{site.baseurl}}/assets/lib/bootstrap/dist/css/bootstrap.min.css" />
+  <link rel="stylesheet" type="text/css" href="{{site.baseurl}}/assets/css/keen-dashboards.css" />
   <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.2.2/Chart.bundle.min.js"></script>
 </head>
 <body class="application">
@@ -18,13 +18,13 @@
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
         </button>
-        <a class="navbar-brand" href="/"><img
+        <a class="navbar-brand" href="{{site.baseurl}}/"><img
           src="https://d3qcdigd1fhos0.cloudfront.net/production/site/6277/mobile_logo/1469047099/original/logo20160720-21379-15zcpsl.png?1469047099"></a>
         </div>
       <div class="navbar-collapse collapse">
         <ul class="nav navbar-nav navbar-left">
 {% if page.title != "Dashboard" %}
-          <li><a href="/index.html"><span class="glyphicon glyphicon-chevron-left"></span> Home</a></li>
+          <li><a href="{{site.baseurl}}/index.html"><span class="glyphicon glyphicon-chevron-left"></span> Home</a></li>
 {% endif %}
         </ul>
       </div>
