@@ -28,7 +28,7 @@ tiles:
 
   - name: User experience
     layout: image-compare
-    before: no-acrobat-error.jpg
+    before: old-healthcare.jpg
     after: healthcare.jpg
 
   - name: Veteran testimonial
@@ -69,3 +69,7 @@ tiles:
         label: Returning
         color: rgb(175,175,175)
 ---
+
+Only 10% of veterans apply for health care online...
+
+...maybe because more than 70% of browsers are unable to access the application.
