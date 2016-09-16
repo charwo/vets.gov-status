@@ -25,6 +25,32 @@ tiles:
     cols:
       - id: all
         label: Count of users
+
+  - name: Mobile Usage
+    layout: chart
+    data: core_mobile
+    context: Percentage of sessions by device type
+    yLabel: Percentage
+    yMax: 100
+    cols:
+      - id: mobile
+        label: Mobile
+        color: rgb(17,46,81)
+      - id: desktop
+        label: Desktop
+        color: rgb(175,175,175)
+
+  - name: New and Returning Veterans
+    layout: chart
+    data: core_new
+    context: Number of users
+    cols:
+      - id: new
+        label: New
+        color: rgb(17,46,81)
+      - id: returning
+        label: Returning
+        color: rgb(175,175,175)
 ---
 
 {% include header.html %}
