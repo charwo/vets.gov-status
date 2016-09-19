@@ -38,12 +38,16 @@ def initialize_analyticsreporting():
 
 
 def get_reports(analytics, view_id):
-    """Use the Analytics Service Object to query Analytics Reporting API."""
+    """Use the Analytics Service Object to query Analytics Reporting API.
+
+    Pulls data from 126 days back to give 18 full weeks of data. Should only be
+    run on Mondays!
+    """
     return analytics.reports().batchGet(
         body={
             'reportRequests': [{
                     'viewId': view_id,
-                    'dateRanges': [{'startDate': '120daysAgo',
+                    'dateRanges': [{'startDate': '126daysAgo',
                                     'endDate': 'yesterday'}],
                     'metrics': [{'expression': 'ga:users'},
                                 {'expression': 'ga:newUsers'}],
@@ -51,7 +55,7 @@ def get_reports(analytics, view_id):
                 },
                 {
                     'viewId': view_id,
-                    'dateRanges': [{'startDate': '120daysAgo',
+                    'dateRanges': [{'startDate': '126daysAgo',
                                     'endDate': 'yesterday'}],
                     'metrics': [{'expression': 'ga:users'}],
                     'dimensions': [{'name': 'ga:isoYearIsoWeek'},
