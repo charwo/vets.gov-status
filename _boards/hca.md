@@ -10,26 +10,11 @@ tiles:
     datapoint: 750
     context: on average
 
-  - name: Fully automated
-    layout: basic
-    datapoint: 50%
-    context: of submissions
-
   - name: Automated processing
     layout: compare
     datapoint: 50%
     before: 4%
     context: of applications can now be processed automatically
-
-  - name: Mobile availability
-    layout: icon
-    icon: smartphone.svg
-    text: Veterans can now complete their application entirely from a smartphone
-
-  - name: User experience
-    layout: image-compare
-    before: old-healthcare.jpg
-    after: healthcare.jpg
 
   - name: Veteran testimonial
     layout: quote
@@ -57,10 +42,10 @@ tiles:
         label: Desktop
         color: rgb(175,175,175)
 
-  - name: New and Returning Veterans
+  - name: New and Returning Users
     layout: chart
     data: hca_new
-    context: Number of users
+    context: Count of users
     cols:
       - id: new
         label: New

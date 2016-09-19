@@ -43,10 +43,10 @@ tiles:
         label: Desktop
         color: rgb(175,175,175)
 
-  - name: New and Returning Veterans
+  - name: New and Returning Users
     layout: chart
     data: vec_new
-    context: Number of users
+    context: Count of users
     cols:
       - id: new
         label: New
