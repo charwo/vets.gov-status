@@ -5,12 +5,9 @@ vetsdotgov_url:
 status: in progress
 category: Discover
 description: Easily find every benefit a Veteran may have earned
+before_jpg: old-healthcare.jpg
+after_jpg: healthcare.jpg
 tiles:
-
-  - name: User Experience
-    layout: image-compare
-    before: old-healthcare.jpg
-    after: healthcare.jpg
 
   - name: Mobile availability
     layout: icon

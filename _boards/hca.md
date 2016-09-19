@@ -5,12 +5,9 @@ vetsdotgov_url: https://www.vets.gov/healthcare/apply/
 status: new
 category: Apply
 description: Making it easy to apply for VA health care online
+before_jpg: old-healthcare.jpg
+after_jpg: healthcare.jpg
 tiles:
-
-  - name: User Experience
-    layout: image-compare
-    before: old-healthcare.jpg
-    after: healthcare.jpg
 
   - name: Daily Submissions
     layout: basic

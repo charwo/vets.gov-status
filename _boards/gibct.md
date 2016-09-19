@@ -5,12 +5,9 @@ vetsdotgov_url: https://www.vets.gov/gi-bill-comparison-tool/
 status: normal
 category: Discover
 description: Now includes performance metrics on schools--and caution flags
+before_jpg: old-healthcare.jpg
+after_jpg: healthcare.jpg
 tiles:
-
-  - name: User Experience
-    layout: image-compare
-    before: old-healthcare.jpg
-    after: healthcare.jpg
 
   - name: Mobile availability
     layout: compare

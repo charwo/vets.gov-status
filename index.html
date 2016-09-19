@@ -67,29 +67,7 @@ tiles:
   </div>
 </div>
 
-<div class="row">
-  <div class="col-md-12 subtitle">
-    <h3>Featured Improvements</h3>
-  </div>
-</div>
-
-<div class="row">
-  {% for tile in page.tiles limit: 3 %}
-    {% include tiles/{{tile.layout}}.html %}
-  {% endfor %}
-</div>
-
-<div class="row">
-  <div class="col-md-12 subtitle">
-    <h3>Overall Measures</h3>
-  </div>
-</div>
-
-<div class="row">
-  {% for tile in page.tiles offset: 3 %}
-    {% include tiles/{{tile.layout}}.html %}
-  {% endfor %}
-</div>
+{% include tile_section.html %}
 
 <div class="row">
   <div class="col-md-12">

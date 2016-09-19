@@ -5,12 +5,9 @@ vetsdotgov_url: https://www.vets.gov/facility-locator/
 status: in progress
 category: Discover
 description: Veterans can search facilities AND VA services!
+before_jpg: old-healthcare.jpg
+after_jpg: healthcare.jpg
 tiles:
-
-  - name: User Experience
-    layout: image-compare
-    before: old-healthcare.jpg
-    after: healthcare.jpg
 
   - name: Locators
     layout: compare

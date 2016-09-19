@@ -20,12 +20,8 @@
       </div>
     </div>
 
-    <div class="row">
+{% include ux_compare.html %}
 
-      {% for tile in page.tiles%}
-        {% include tiles/{{tile.layout}}.html %}
-      {% endfor %}
-
-    </div>
+{% include tile_section.html %}
 
 {% include footer.html %}

@@ -5,12 +5,9 @@ vetsdotgov_url: https://search.vets.gov/search?utf8=%E2%9C%93&affiliate=vets.gov
 status:
 category: Discover
 description: 1-click access to top queries
+before_jpg: old-healthcare.jpg
+after_jpg: healthcare.jpg
 tiles:
-
-  - name: User Experience
-    layout: image-compare
-    before: old-healthcare.jpg
-    after: healthcare.jpg
 
   - name: Mobile availability
     layout: icon

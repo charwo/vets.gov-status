@@ -5,12 +5,9 @@ vetsdotgov_url:
 status:
 category: Manage
 description: 1-click access from a mobile phone to text or call the VCL from homepage
+before_jpg: old-healthcare.jpg
+after_jpg: healthcare.jpg
 tiles:
-
-  - name: User Experience
-    layout: image-compare
-    before: old-healthcare.jpg
-    after: healthcare.jpg
 
   - name: Mobile availability
     layout: icon
