@@ -2,8 +2,8 @@
 title: Content
 category: Discover
 description: Combining content from 524 sites into a single user-friendly experience
-before_jpg: old-healthcare.jpg
-after_jpg: healthcare.jpg
+before_jpg: content_old.png
+after_jpg: content.png
 tiles:
 
   - name: Before

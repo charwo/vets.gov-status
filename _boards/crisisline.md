@@ -5,8 +5,8 @@ vetsdotgov_url:
 status:
 category: Manage
 description: 1-click access from a mobile phone to text or call the VCL from homepage
-before_jpg: old-healthcare.jpg
-after_jpg: healthcare.jpg
+before_jpg: crisisline_old.png
+after_jpg: crisisline.png
 tiles:
 
   - name: Mobile availability

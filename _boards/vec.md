@@ -5,8 +5,8 @@ vetsdotgov_url: https://www.vets.gov/employment/
 status: normal
 category: Manage
 description: Will enable Veterans to verify their military status online!
-before_jpg: old-healthcare.jpg
-after_jpg: healthcare.jpg
+before_jpg: vec_old.png
+after_jpg: vec.png
 tiles:
 
   - name: Daily Submissions
