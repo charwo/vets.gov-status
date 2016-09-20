@@ -4,25 +4,26 @@ date_added: 2016-06-30 00:00:00 -0500
 vetsdotgov_url: https://www.vets.gov/healthcare/apply/
 status: new
 category: Apply
-description: Making it easy to apply for VA health care online
+description: Increasing online applications from 10% before to 40% in 2017
 before_jpg: healthcare_old.png
 after_jpg: healthcare.jpg
 tiles:
 
   - name: Daily Submissions
     layout: basic
-    datapoint: 750
-    context: on average
+    datapoint: 555
+    context: on average each weekday in August
 
-  - name: Automated processing
+  - name: Automatically processed applications
     layout: compare
-    datapoint: 50%
-    before: 4%
-    context: of applications can now be processed automatically
+    datapoint: 500
+    before: 62
+    context: per day that require no manual intervention
 
-  - name: Veteran testimonial
-    layout: quote
-    text: The other website takes you around the corner, over the meadow, and...in a back door blocked with spikes and IEDs
+  - name: Mobile availability
+    layout: icon
+    icon: smartphone.svg
+    text: Veterans can now complete their application entirely from a smartphone
 
   - name: Site Traffic
     layout: chart

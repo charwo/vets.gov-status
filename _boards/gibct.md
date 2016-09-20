@@ -15,14 +15,14 @@ tiles:
     before: 46%
     context: of content available on mobile devices
 
-  - name: Daily Submissions
-    layout: basic
-    datapoint: 750
-    context: on average
-
   - name: Veteran testimonial
     layout: quote
     text: The other website takes you around the corner, over the meadow, and...in a back door blocked with spikes and IEDs
+
+  - name: Mobile availability
+    layout: icon
+    icon: smartphone.svg
+    text: Veterans can now complete their application entirely from a smartphone
 
   - name: Site Traffic
     layout: chart

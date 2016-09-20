@@ -1,23 +1,19 @@
 ---
 title: Content
 category: Discover
-description: Combining content from 524 sites into a single user-friendly experience
+description: Relevant content consolidated to vets.gov and rewritten in plain language
 before_jpg: content_old.png
 after_jpg: content.png
 tiles:
 
-  - name: Before
-    layout: basic
-    datapoint: 0%
-    context: of content available on mobile
+  - name: Mobile-first design
+    layout: compare
+    datapoint: 100%
+    before: 46%
+    context: of sites available on mobile
 
-  - name: Mobile availability
+  - name: Plain language compliance
     layout: basic
-    datapoint: XX%
-    context: of content available on mobile
-
-  - name: Plain language
-    layout: basic
-    datapoint: XX%
+    datapoint: 100%
     context: of content rewritten
 ---
