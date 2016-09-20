@@ -48,7 +48,12 @@ var myChart = new Chart(ctx, {
                   {% if tile.yMax %}, max: {{tile.yMax}} {% endif %}
                 }
             }]
+        },
+        {% if tile.cols.size == 1 %}
+        legend: {
+          display: false
         }
+        {% endif %}
     }
 });
 </script>
