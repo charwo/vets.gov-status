@@ -13,7 +13,8 @@ tiles:
     context: of sites available on mobile
 
   - name: Plain language compliance
-    layout: basic
-    datapoint: 100%
-    context: of content rewritten
+    layout: donut
+    id: plainlanguage
+    datapoint: 100
+    context: percentage of content rewritten
 ---
