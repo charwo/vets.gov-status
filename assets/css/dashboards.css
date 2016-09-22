@@ -1,0 +1,268 @@
+
+/*
+ * Full-page application style
+ */
+
+body.application {
+  background: #fff;
+  font-family: Source Sans Pro,Helvetica Neue,Helvetica,Roboto,Arial,sans-serif;
+}
+
+b {
+  color: #FAC922;
+}
+
+.dash-header {
+  margin: 0 0 32px;
+  margin: 0 0 2rem;
+  padding-left: 20px;
+  padding-right: 0;
+  background-color: #0071BC;
+  color: #fff;
+  overflow: hidden;
+}
+
+.header-logo {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  background:#112e51 url(http://vets.gov/img/design/background/thread.png) 100% no-repeat;
+  margin-left: -15px;
+  font-size: 40px;
+}
+
+.header-logo span {
+  padding-left: 1rem;
+  vertical-align: -5%;
+}
+
+.header-logo img {
+  padding-left: 15px;
+}
+
+.dash-subhead {
+  padding-top: 3rem;
+  padding-left: 60px;
+  padding-bottom: 3rem;
+  padding-right: 60px;
+}
+
+.dash-subhead a, a:hover {
+    color: #fff;
+}
+
+.dash-subhead h1 {
+  font-weight: bold;
+}
+
+.dash-subhead p {
+  font-size: 16px;
+}
+
+.btn-app {
+  background-color: transparent;
+  border: 1px solid #fff;
+  border-radius: 3px;
+}
+
+.btn-app:hover {
+  color: #fff;
+}
+
+.dash-content {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.ux-compare {
+  padding-top: 3rem;
+  margin-bottom: 20px;
+}
+
+.ux-compare > .title,
+.category-header,
+.title {
+  font-weight: bold;
+  font-size: 24px;
+  color: #0071BC;
+}
+
+.subtitle {
+  padding-top: 2rem;
+  padding-bottom: 4rem;
+}
+
+.subtitle p {
+  font-weight: bold;
+  font-size: 36px;
+  color: #112e51;
+}
+
+body.application div[class^="col-"] {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+body.application div[class^="col-"] div[class^="col-"] {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.col-chart-tabs {
+    padding-right: 0 !important;
+}
+
+.col-charts  {
+  padding-left: 0 !important;
+}
+
+.label-status {
+  font-size: 14px;
+  position: absolute;
+  bottom: 40px;
+}
+
+.category-grid {
+  margin-top: -30px;
+}
+
+.category-grid > .row {
+  padding: 20px;
+  border-radius: 4px;
+}
+
+
+.row-shaded {
+  background-color: #F2F2F2;
+}
+
+.category-grid a:hover {
+  text-decoration: none;
+}
+
+.category-grid a > .project-wrapper:hover{
+  background-color: #0071BC;
+}
+
+.project-wrapper {
+  background-color: #112E51;
+  color: #FFF;
+  padding: 20px;
+  border-radius: 4px;
+  min-height: 200px;
+  margin-bottom: 20px;
+}
+
+.project-title {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.chart-wrapper {
+  background: #F5F5F5;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+.chart-wrapper > .chart-title {
+  color: #112e51;
+  font-size: 24px;
+  font-weight: 600;
+  padding: 10px 10px 0px;
+  min-height: 60px;
+  line-height: 1em;
+}
+
+.chart-wrapper .chart-stage {
+  overflow: hidden;
+  padding: 5px 10px;
+  position: relative;
+  min-height: 130px;
+}
+
+.chart-wrapper .chart-holder {
+  overflow: hidden;
+  padding-left: 10px;
+  padding-right: 10px;
+  position: relative;
+}
+
+.chart-stage .datapoint {
+  font-size: 72px;
+  font-weight: 700;
+  color: #0071BC;
+  line-height: 1em;
+  margin: 0;
+}
+
+.quotes {
+  color: #0071BC;
+  font-size: 100px;
+  font-weight: 700;
+  vertical-align: top;
+  line-height: 80px;
+}
+
+.lead {
+  font-size: 16pt;
+}
+
+.compare-before {
+  border-right: 1px solid #AAA;
+}
+
+.before-text {
+  color: #4A4A4A;
+  font-size: 72px;
+  font-weight: 700;
+  line-height: 1em;
+  margin: 0;
+}
+
+.chart-wrapper .chart-notes {
+  color: #4A4A4A;
+  font-size: 16px;
+}
+
+.tabs-chart {
+  padding-top: 0 !important;
+}
+
+.tabs-chart li {
+  background-color: #264060;
+  font-size: 32px;
+  text-align: center;
+}
+
+.tabs-chart > li > a:hover {
+  background-color: #112E51;
+}
+
+.tabs-chart > li > a {
+  color: #FFF;
+}
+
+.tabs-chart > li.active {
+  border-left: 10px solid #F5A623;
+}
+
+.tabs-chart > li.active > a,
+.tabs-chart > li.active > a:hover,
+.tabs-chart > li.active > a:focus {
+  background-color: #112E51;
+  color: #FFF;
+  border-radius: 0px 0px 0px 0px;
+  border-width: 0px;
+}
+
+.migration-header {
+  color: #112e51;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 1em;
+  margin-bottom: 30px;
+}
+
+.row-footer {
+  min-height: 60px;
+  background:#112e51 url(http://vets.gov/img/design/background/thread.png) 100% no-repeat;
+  margin-top: 100px;
+}

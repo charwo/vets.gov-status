@@ -5,18 +5,15 @@
     </div>
     <div class="chart-stage">
       <div class="row">
-        <div class="col-xs-6">
-          <h2>{{tile.before}}</h2>
-          <span>Before</span>
+        <div class="col-xs-4 compare-before">
+          <p class="before-text">{{tile.before}}</p>
+          <span class="chart-notes">Before</span>
         </div>
-        <div class="col-xs-6">
-          <h2>{{tile.datapoint}}</h2>
-          <span>After</span>
+        <div class="col-xs-8">
+          <p class="datapoint">{{tile.datapoint}}</p>
+          <span class="chart-notes">After</span>
         </div>
       </div>
-    </div>
-    <div class="chart-notes">
-      {{tile.context}}
     </div>
   </div>
 </div>
