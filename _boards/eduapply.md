@@ -4,8 +4,8 @@ date_added:
 vetsdotgov_url:
 status: progress
 category: Apply
-description: Veterans can apply for eduction benefits online using any device.
-before_jpg: 
+description: Veterans can apply for eduction benefits online using any mobile device
+before_jpg:
 after_jpg:
 tiles:
 

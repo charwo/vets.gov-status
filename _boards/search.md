@@ -9,8 +9,8 @@ before_jpg: search_old.png
 after_jpg: search.png
 tiles:
 
-  - name: Mobile availability
+  - name: Mobile access
     layout: icon
     icon: phone
-    text: Veterans can now complete their application entirely from a smartphone
+    text: Whole site searchable from mobile devices
 ---

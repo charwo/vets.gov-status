@@ -18,4 +18,9 @@ tiles:
     layout: compare
     datapoint: 1
     before: 43
+
+  - name: Integrated directions
+    layout: icon
+    icon: road
+    text: Connects with Google Maps to provide distance and driving directions
 ---

@@ -4,7 +4,7 @@ date_added: 2015-11-01 00:00:00 -0500
 vetsdotgov_url: https://www.vets.gov/gi-bill-comparison-tool/
 status: normal
 category: Discover
-description: Now includes performance metrics on schools--and caution flags
+description: Includes school performance data--and caution flags to warn Veterans
 before_jpg: gibct_old.png
 after_jpg: gibct.png
 tiles:
@@ -12,7 +12,7 @@ tiles:
   - name: Caution warnings
     layout: icon
     icon: warning-sign
-    text: Warns on schools, such as ITT, that are not performing well
+    text: Warns on schools that are not performing well
 
 
   - name: <span class="glyphicon glyphicon-signal" aria-hidden="true"></span><p>Site Traffic</p>

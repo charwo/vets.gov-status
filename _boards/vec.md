@@ -9,15 +9,20 @@ before_jpg: vec_old.png
 after_jpg: vec.png
 tiles:
 
-  - name: Savings
-    layout: basic
-    datapoint: $8m
-    context: using small, agile teams
+  - name: Cost
+    layout: savings
+    datapoint: $6k
+    before: $24m
 
   - name: Mobile availability
     layout: icon
     icon: phone
     text: Enables Veterans to find employment opportunities on their mobile devices   
+
+  - name: Months to deliver
+    layout: savings
+    datapoint: 1
+    before: 12
 
   - name: <span class="glyphicon glyphicon-signal" aria-hidden="true"></span><p>Site Traffic</p>
     layout: chart

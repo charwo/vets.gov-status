@@ -4,7 +4,7 @@ date_added:
 vetsdotgov_url:
 status: progress
 category: Discover
-description: Easily find every benefit a Veteran may have earned
+description: Find benefits more easily
 before_jpg: old-healthcare.jpg
 after_jpg: healthcare.jpg
 tiles:

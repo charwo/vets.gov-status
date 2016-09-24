@@ -4,26 +4,25 @@ date_added: 2016-06-30 00:00:00 -0500
 vetsdotgov_url: https://www.vets.gov/healthcare/apply/
 status: new
 category: Apply
-description: Increasing online applications from 10% before to 40% in 2017
+description: Increased online submissions from 62/day to 500/day
 before_jpg: healthcare_old.png
 after_jpg: healthcare.png
 tiles:
 
-  - name: Online applications
-    layout: compare
-    datapoint: 50%
-    before: 10%
+  - name: Cost per year
+    layout: savings
+    datapoint: $8k
+    before: $8m
 
-  - name: Mobile availability
-    layout: icon
-    icon: phone
-    text: Veterans can now complete their application entirely from a smartphone
-
-  - name: Automatically processed applications
+  - name: Minutes to complete
     layout: compare
-    datapoint: 495
+    datapoint: 12-22
+    before: 45+
+
+  - name: Daily online submissions
+    layout: compare
+    datapoint: 500
     before: 62
-    context: per day that require no manual intervention
 
   - name: <span class="glyphicon glyphicon-signal" aria-hidden="true"></span><p>Site Traffic</p>
     layout: chart
