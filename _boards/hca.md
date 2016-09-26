@@ -14,17 +14,17 @@ tiles:
     datapoint: $8k
     before: $8m
 
+  - name: Daily online submissions
+    layout: compare_bars
+    datapoint: 500
+    before: 62
+
   - name: Minutes to complete
     layout: compare
     datapoint: 12-22
     before: 45+
 
-  - name: Daily online submissions
-    layout: compare
-    datapoint: 500
-    before: 62
-
-  - name: <span class="glyphicon glyphicon-signal" aria-hidden="true"></span><p>Site Traffic</p>
+  - name: <span class="glyphicon glyphicon-signal tab-icon" aria-hidden="true"></span><span>Site Traffic</span>
     layout: chart
     data: hca_users
     context: Total users per week
@@ -32,7 +32,7 @@ tiles:
       - id: all
         label: Count of users
 
-  - name: <span class="glyphicon glyphicon-phone" aria-hidden="true"></span><p>Mobile Usage</p>
+  - name: <span class="glyphicon glyphicon-phone tab-icon" aria-hidden="true"></span><span>Mobile Usage</span>
     layout: chart
     data: hca_mobile
     context: Percentage of users by device type used

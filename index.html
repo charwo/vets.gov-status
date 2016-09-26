@@ -5,9 +5,9 @@ access: Improving Veteran access to benefits and services
 tiles:
 
   - name: 500,000+ annual VA health care applications
-    layout: compare
-    datapoint: 50%
-    before: 10%
+    layout: compare_pie
+    datapoint: 50
+    before: 10
 
   - name: Accessibility compliance
     layout: basic
@@ -15,11 +15,12 @@ tiles:
     context: of vets.gov meets 508 standards
 
   - name: Mobile access
-    layout: compare
-    datapoint: 100%
-    before: 46%
+    layout: compare_100bars
+    id: mobile
+    datapoint: 100
+    before: 46
 
-  - name: <span class="glyphicon glyphicon-signal" aria-hidden="true"></span><p>Site Traffic</p>
+  - name: <span class="glyphicon glyphicon-signal tab-icon" aria-hidden="true"></span><span>Site Traffic</span>
     layout: chart
     data: core_users
     context: Total users per week
@@ -27,7 +28,7 @@ tiles:
       - id: all
         label: Count of users
 
-  - name: <span class="glyphicon glyphicon-phone" aria-hidden="true"></span><p>Mobile Usage</p>
+  - name: <span class="glyphicon glyphicon-phone tab-icon" aria-hidden="true"></span><span>Mobile Usage</span>
     layout: chart
     data: core_mobile
     context: Percentage of sessions by device type
@@ -86,13 +87,13 @@ tiles:
   </div>
 
 
-  <div class="row chart-stage">
+  <div class="row">
 
-    <div class="col-sm-6 col-md-4">
-        <div>
-          <p class="migration-header">Products launched since Nov 2015</p>
-        </div>
+    <div class="col-sm-12 col-md-6">
+      <div class="chart-wrapper">
         <div class="chart-stage">
+          <p class="migration-header">Products launched since Nov 2015</p>
+
           <div class="compare compare-before">
               <p class="datapoint">20</p>
               <span class="chart-notes">Live</span>
@@ -103,15 +104,14 @@ tiles:
           </div>
         </div>
       </div>
+    </div>
 
-    <div class="col-sm-12 col-md-4">
-      <div class="row">
+    <div class="col-sm-12 col-md-6">
         <div class="project-wrapper">
             <p class="project-title">Migration Status</p>
             <p>Tracks the legacy products on VA.gov websites that are migrated to vets.gov</p>
             <span class="label label-default label-status">In Progress</span>
         </div>
-      </div>
     </div>
 
 

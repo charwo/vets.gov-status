@@ -20,11 +20,11 @@ tiles:
     text: Enables Veterans to find employment opportunities on their mobile devices   
 
   - name: Months to deliver
-    layout: savings
+    layout: compare_bars
     datapoint: 1
     before: 12
 
-  - name: <span class="glyphicon glyphicon-signal" aria-hidden="true"></span><p>Site Traffic</p>
+  - name: <span class="glyphicon glyphicon-signal tab-icon" aria-hidden="true"></span><span>Site Traffic</span>
     layout: chart
     data: vec_users
     context: Total users per week
@@ -32,7 +32,7 @@ tiles:
       - id: all
         label: Count of users
 
-  - name: <span class="glyphicon glyphicon-phone" aria-hidden="true"></span><p>Mobile Usage</p>
+  - name: <span class="glyphicon glyphicon-phone tab-icon" aria-hidden="true"></span><span>Mobile Usage</span>
     layout: chart
     data: vec_mobile
     context: Percentage of users by device type used
