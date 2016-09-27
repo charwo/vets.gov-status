@@ -9,8 +9,20 @@ before_jpg: search_old.png
 after_jpg: search.png
 tiles:
 
-  - name: One-click access
+  - name: Searches
+    layout: basic
+    datapoint: "13,610"
+    context: total last month on vets.gov
+
+  - name: One-click access target
     layout: basic
     datapoint: 100
     context: most frequent search terms
+
+  - name: Top search terms
+    layout: icon
+    icon: search
+    text: job search<br>jobs<br>ebenefits<br>coursera
+
+
 ---
