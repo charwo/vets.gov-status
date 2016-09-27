@@ -5,7 +5,7 @@ vetsdotgov_url:
 status: new
 category: Track
 description: Track and update your claim all in one place
-before_jpg: placeholder.png
+before_jpg: disabilityclaims_old.png
 after_jpg: placeholder.png
 tiles:
 
