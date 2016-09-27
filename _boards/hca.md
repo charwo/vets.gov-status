@@ -11,7 +11,7 @@ tiles:
 
   - name: Cost per year
     layout: savings
-    datapoint: $8k
+    datapoint: $30k
     before: $8m
 
   - name: Daily online submissions
@@ -19,10 +19,10 @@ tiles:
     datapoint: 500
     before: 62
 
-  - name: Minutes to complete
-    layout: compare
-    datapoint: 12-22
-    before: 45+
+  - name: Veteran use in first 60 days
+    layout: basic
+    datapoint: "30,000"
+    context: online applications submitted
 
   - name: <span class="glyphicon glyphicon-user tab-icon" aria-hidden="true"></span><span>Users</span>
     layout: chart
@@ -46,7 +46,3 @@ tiles:
         label: Desktop
         color: rgb(175,175,175)
 ---
-
-Only 10% of veterans apply for health care online...
-
-...maybe because more than 70% of browsers are unable to access the application.

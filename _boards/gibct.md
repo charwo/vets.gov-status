@@ -19,6 +19,11 @@ tiles:
     before: 90
     datapoint: 7
 
+  - name: Performance measures
+    layout: icon
+    icon: tasks
+    text: Provides Veterans data on how schools perform on key education metrics
+
   - name: <span class="glyphicon glyphicon-user tab-icon" aria-hidden="true"></span><span>Users</span>
     layout: chart
     data: gibct_users

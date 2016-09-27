@@ -13,4 +13,9 @@ tiles:
     layout: icon
     icon: phone
     text: One click to text or call from any mobile device
+
+  - name: Improved content
+    layout: icon
+    icon: list-alt
+    text: Plain language content on many issues should reduce non-crisis calls
 ---

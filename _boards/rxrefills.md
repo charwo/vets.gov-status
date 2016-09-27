@@ -2,7 +2,7 @@
 title: Prescription Refills
 date_added:
 vetsdotgov_url:
-status: normal
+status: new
 category: Manage
 description: Veterans can refill their VA prescriptions from any device
 before_jpg: rx_old.png
@@ -16,7 +16,7 @@ tiles:
 
   - name: Call center phone refills per year
     layout: basic
-    datapoint: 2M+
+    datapoint: 2.1M
     context: targeted for conversion to online transactions
 
 ---
