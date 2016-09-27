@@ -6,7 +6,7 @@ status: new
 category: Track
 description: Track and update your claim all in one place
 before_jpg: disabilityclaims_old.png
-after_jpg: placeholder.png
+after_jpg: disabilityclaims.png
 tiles:
 
   - name: Days in release cycle
