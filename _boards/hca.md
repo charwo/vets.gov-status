@@ -2,7 +2,7 @@
 title: Health Care Application
 date_added: 2016-06-30 00:00:00 -0500
 vetsdotgov_url: https://www.vets.gov/healthcare/apply/
-status: new
+status: normal
 category: Apply
 description: Increased online submissions from 62/day to 500/day
 before_jpg: healthcare_old.png

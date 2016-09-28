@@ -4,7 +4,6 @@ mission_statement: Vets.gov enables Veterans to <b>discover</b>, <b>apply</b> fo
 access: Improving Veteran access to benefits and services
 tiles:
 
-
   - name: Mobile access
     layout: compare_100bars
     id: mobile
@@ -14,14 +13,13 @@ tiles:
   - name: 508 Accessibility Compliance
     layout: basic
     datapoint: 100%
-    context: improved experience for blind Veterans
+    context: Improved experience for blind Veterans
 
   - name: Online portion of 582k annual healthcare applications
     layout: compare_pie
     datapoint: 50
     before: 10
     context: Percentage submitted online
-
 
   - name: No special software required
     layout: quote
@@ -57,6 +55,17 @@ tiles:
     cols:
       - id: views
         label: Count of pageviews
+
+feedback:
+
+  - name: Veteran reaction to healthcare application
+    layout: quote
+    text: This is super easy. I have not had this level of ease with a website for the government at all. This is awesome…the other website… leads you in back door that’s blocked with spikes and IEDs.”
+
+  - name: More Veteran research
+    url: research.html
+    layout: link
+    text: Learn more about our human centered design approach to Veteran research
 ---
 
 {% include header.html %}
@@ -94,6 +103,8 @@ tiles:
   </div>
   {% endfor %}
 </div>
+
+{% include research.html %}
 
 <div class="container">
   <div class="row subtitle">

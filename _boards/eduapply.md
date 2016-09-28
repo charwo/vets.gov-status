@@ -2,7 +2,7 @@
 title: Education Application
 date_added:
 vetsdotgov_url:
-status: new
+status: progress
 category: Apply
 description: Veterans can apply for eduction benefits online using any mobile device
 before_jpg: eduapply_old.png

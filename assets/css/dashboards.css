@@ -6,11 +6,27 @@
 body.application {
   background: #fff;
   font-family: Source Sans Pro,Helvetica Neue,Helvetica,Roboto,Arial,sans-serif;
+  font-size: 16px;
 }
 
 b {
   color: #FAC922;
   line-height: 1em;
+}
+
+.va-notice {
+    background: #003E73 none repeat scroll 0% 0%;
+    padding: 0.5em;
+    font-size: 14.4px;
+    font-weight: 300;
+}
+
+.va-notice p {
+  margin: 0;
+}
+
+.va-notice a {
+  color: #FFF;
 }
 
 .dash-header {
@@ -83,10 +99,13 @@ b {
   font-weight: bold;
 }
 
-
 .dash-subhead p {
-  font-size: 16px;
+  font-size: 18px;
   opacity: .85;
+}
+
+.access-sentence {
+  font-size: 18px;
 }
 
 .breadcrumbs a {
@@ -169,6 +188,14 @@ body.application div[class^="col-"] div[class^="col-"] {
 
 }
 
+h1.centered {
+  text-align: center;
+}
+
+h1.centered a {
+  color:#3E3E3E;
+}
+
 .band {
   display: block;
   padding: 1.5em 0;
@@ -179,6 +206,10 @@ body.application div[class^="col-"] div[class^="col-"] {
   transition: all .2s ease-in-out;
   -webkit-backface-visibility: hidden; /* Chrome, Safari, Opera */
    backface-visibility: hidden;
+}
+
+.band-spaced {
+  margin-top: 80px;
 }
 
 .band:active, .band:hover {
@@ -205,7 +236,8 @@ body.application div[class^="col-"] div[class^="col-"] {
 }
 
 .project-wrapper,
-.comingsoon-wrapper {
+.comingsoon-wrapper,
+.link-tile {
   background-color: #003e73;
   color: #FFF;
   padding: 20px;
@@ -228,7 +260,8 @@ body.application div[class^="col-"] div[class^="col-"] {
 }
 
 
-.project-wrapper p.project-title:after {
+.project-wrapper p.project-title:after,
+.link-tile .link-tile-title:after {
   content: "➔";
   width: 3em;
   height: 2em;

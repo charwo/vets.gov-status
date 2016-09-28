@@ -2,7 +2,7 @@
 title: Prescription Refills
 date_added:
 vetsdotgov_url:
-status: new
+status: progress
 category: Manage
 description: Veterans can refill their VA prescriptions from any device
 before_jpg: rx_old.png

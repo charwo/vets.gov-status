@@ -1,11 +1,13 @@
 
 <div class="container">
+
+{% if page.tiles.size > 0 %}
   <div class="row subtitle">
     <div class="col-md-12">
       {% unless page.access %}
       <p>Featured Improvements</p>
       {% else %}
-      <p>Accesss Improvements</p>
+      <p>Access Improvements</p>
       <span class="access-sentence">{{page.access}}</span>
       {% endunless %}
     </div>
@@ -19,7 +21,7 @@
     {% include tiles/{{tile.layout}}.html %}
   {% endfor %}
 </div>
-
+{% endif %}
 
 {% assign charts = page.tiles | where: "layout", "chart" %}
 {% if charts.size > 0 %}
