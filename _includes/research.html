@@ -1,14 +1,9 @@
 {% if page.feedback.size > 0 %}
-<div class="container">
-  <div class="row subtitle">
-    <div class="col-md-12">
-      <p>Veteran research</p>
+
+    <div class="row row-tile">
+      {% for tile in page.feedback limit: 3 %}
+        {% include tiles/{{tile.layout}}.html %}
+      {% endfor %}
     </div>
-  </div>
-  <div class="row row-tile">
-    {% for tile in page.feedback limit: 3 %}
-      {% include tiles/{{tile.layout}}.html %}
-    {% endfor %}
-  </div>
-</div>
+
 {% endif %}
