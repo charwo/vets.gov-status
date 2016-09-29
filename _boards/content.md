@@ -4,7 +4,7 @@ date_added:
 vetsdotgov_url:
 status: normal
 category: Discover
-description: 100% of content rewritten in plain language
+description: We create content to help users accomplish their goals — using words that Veterans and their families know and understand.  We develop and prioritize content based on data from user research, VA call centers, and website analytics.
 before_jpg: content_old.png
 after_jpg: content.png
 tiles:

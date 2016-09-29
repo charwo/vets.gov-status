@@ -145,17 +145,16 @@ b {
   border: 2px solid #112e51;
 }
 
-.ux-compare {
-  padding-top: 3rem;
-
-}
-
 
 .ux-compare img {
   -webkit-box-shadow: 0 0 6px rgba(0,0,0,.2);
   margin-bottom: 3em;
 }
 
+.tile-container {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
 
 .ux-compare > .title,
 .category-header,
