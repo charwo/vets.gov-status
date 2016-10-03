@@ -109,7 +109,7 @@ b {
 
 .dash-subhead {
   padding-top: 3rem;
-  padding-bottom: 3rem;
+  padding-bottom: 3.75rem;
   text-align: left;
 }
 
@@ -515,7 +515,7 @@ iframe {
 }
 
 .research-list .chart-title {
-  margin-bottom: 50px; 
+  margin-bottom: 50px;
 }
 
 .quote-band h3 {
@@ -556,7 +556,11 @@ a.usa-button.dark:hover {
 
 
 .row-footer {
-  min-height: 30px;
+  padding: 1em 0;
   background:#112e51;
   margin-top: 100px;
+}
+
+.row-footer a {
+  color: #fff;
 }
