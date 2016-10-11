@@ -48,7 +48,7 @@ tiles:
 
   - name: <span class="glyphicon glyphicon-file tab-icon" aria-hidden="true"></span><span>Views</span>
     layout: chart
-    data: core_views
+    data: gibct_views
     context: Total page views per week
     cols:
       - id: views

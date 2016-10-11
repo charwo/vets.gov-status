@@ -1,4 +1,5 @@
-
+---
+---
 /*
  * Full-page application style
  */
@@ -91,7 +92,7 @@ b {
     color: #fff;
     float: left;
     display: inline-block;
-    background: url(/vets.gov-status/assets/img/design/logo/logo.png) 0 0 no-repeat;
+    background: url({{site.baseurl}}/assets/img/design/logo/logo.png) 0 0 no-repeat;
     background-size: contain;
     border-bottom: none;
     text-decoration: none;
@@ -102,7 +103,7 @@ b {
 
 .header-logo {
   padding: 1em 0;
-  background:#112e51 url(/vets.gov-status/assets/img/design/background/thread.png) center no-repeat;
+  background:#112e51 url({{site.baseurl}}/assets/img/design/background/thread.png) center no-repeat;
   background-size: cover;
   display: block;
 }

@@ -37,34 +37,48 @@ def initialize_analyticsreporting():
     return analytics
 
 
+def find_sunday():
+    """Finds the prior Sunday to ensure a full week of data
+
+    returns a datetime representing that Sunday"""
+
+    today = datetime.date.today()
+
+    # Monday is 1 and Sunday is 7 for isoweekday()
+    days_after_sunday = datetime.timedelta(days=today.isoweekday())
+    return today - days_after_sunday
+
+
 def get_reports(analytics, view_id):
     """Use the Analytics Service Object to query Analytics Reporting API.
 
-    Pulls data from 126 days back to give 18 full weeks of data. Should only be
-    run on Mondays!
+    Pulls data from the prior full Sunday to 20 full weeks prior
     """
+    startDate = (find_sunday() - datetime.timedelta(days=139)).isoformat()
+    endDate = find_sunday().isoformat()
+
     return analytics.reports().batchGet(
         body={
             'reportRequests': [{
                     'viewId': view_id,
-                    'dateRanges': [{'startDate': '140daysAgo',
-                                    'endDate': 'yesterday'}],
+                    'dateRanges': [{'startDate': startDate,
+                                    'endDate': endDate}],
                     'metrics': [{'expression': 'ga:users'},
                                 {'expression': 'ga:newUsers'}],
                     'dimensions': [{'name': 'ga:isoYearIsoWeek'}]
                 },
                 {
                     'viewId': view_id,
-                    'dateRanges': [{'startDate': '140daysAgo',
-                                    'endDate': 'yesterday'}],
+                    'dateRanges': [{'startDate': startDate,
+                                    'endDate': endDate}],
                     'metrics': [{'expression': 'ga:sessions'}],
                     'dimensions': [{'name': 'ga:isoYearIsoWeek'},
                                    {'name': 'ga:deviceCategory'}]
                 },
                 {
                     'viewId': view_id,
-                    'dateRanges': [{'startDate': '140daysAgo',
-                                    'endDate': 'yesterday'}],
+                    'dateRanges': [{'startDate': startDate,
+                                    'endDate': endDate}],
                     'metrics': [{'expression': 'ga:pageviews'}],
                     'dimensions': [{'name': 'ga:isoYearIsoWeek'}]
                 }
@@ -144,9 +158,7 @@ def output_device(df, board):
 
 def output_pageviews(df, board):
     """Output a csv from dataframe contents."""
-
-    print(df)
-
+    
     df.columns = ['views']
     filename = "{}_views.csv".format(board)
     df.to_csv(filename, date_format="%m/%d/%y")
