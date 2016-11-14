@@ -1,8 +1,8 @@
 ---
 title: Education Application
-date_added:
-vetsdotgov_url:
-status: progress
+date_added: 2016-11-11 00:00:00 -0500
+vetsdotgov_url: https://www.vets.gov/education/apply-for-education-benefits/
+status: normal
 category: Apply
 description: Veterans can apply for eduction benefits online using any mobile device
 screenshot: eduapply
@@ -13,9 +13,10 @@ tiles:
     icon: lock
     text: Mitigated security issues with legacy site
 
-  - name: Veteran reaction
-    layout: quote-tile
-    text: It’s really simple ... Military people love that. They love that.
+  - name: Online applications submitted
+    layout: basic
+    datapoint: "35"
+    context: since public launch in November 2016
 
   - name: Improved user experience
     layout: icon
