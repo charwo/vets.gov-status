@@ -34,18 +34,26 @@
 
 
 .project-wrapper p.project-title:after {
-  content: "➔";
-  width: 3em;
-  height: 2em;
-  font-size: 5em;
+  content: "View more";
+  width: 100%;
+  overflow: hidden;
+  font-size: .65em;
+  font-weight: normal;
+  text-transform: uppercase;
+  background: #0071BC;
+  color: #fff;
   display: block;
-  padding: 0;
+  right: 0;
+  bottom: 0;
+  padding: .35em;
+  -webkit-border-bottom-left-radius: .35em;
+  -webkit-border-bottom-right-radius: .35em;
+  border-bottom-left-radius: .35em;
+  border-bottom-right-radius: .35em;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
   position: absolute;
-  right: .25em;
   text-align: right;
-  top: .25em;
-  color: white;
-  opacity: .05;
   z-index: -500;
   -webkit-transition: all .2s ease-in-out;
   -moz-transition: all .2s ease-in-out;
@@ -54,8 +62,6 @@
 }
 
 .project-wrapper:hover p.project-title:after {
-  right: .2em;
-  opacity: .1;
 }
 
 .project-title {
