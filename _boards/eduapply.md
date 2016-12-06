@@ -15,7 +15,7 @@ tiles:
 
   - name: Online applications submitted
     layout: basic
-    datapoint: "1,409"
+    datapoint: "3,917"
     context: since public launch in November 2016
 
   - name: Improved user experience
@@ -23,4 +23,5 @@ tiles:
     icon: heart-empty
     text: Used human centered design to improve Veteran experience
 
+charts: eduapply
 ---
