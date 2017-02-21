@@ -1,7 +1,7 @@
 ---
-title: Disability Claims Status
-date_added:
-vetsdotgov_url:
+title: Claims Status Tracker
+date_added: 2016-12-05 00:00:00 -0500
+vetsdotgov_url: https://www.vets.gov/track-claims
 status: normal
 category: Track
 description: Track and update your claim all in one place
@@ -11,7 +11,7 @@ tiles:
   - name: Days in release cycle
     layout: compare_bars
     before: 90
-    datapoint: 7
+    datapoint: 1
 
   - name: Site reliability
     layout: icon

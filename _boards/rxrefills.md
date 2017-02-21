@@ -1,7 +1,7 @@
 ---
 title: Prescription Refills
-date_added:
-vetsdotgov_url:
+date_added: 2016-12-05 00:00:00 -0500
+vetsdotgov_url: https://www.vets.gov/healthcare/prescriptions
 status: normal
 category: Manage
 description: Veterans can refill their VA prescriptions from any device
@@ -18,4 +18,5 @@ tiles:
     datapoint: 2.1M
     context: targeted for conversion to online transactions
 
+charts: rx
 ---

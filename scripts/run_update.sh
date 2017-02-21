@@ -1,6 +1,6 @@
 #! /usr/bin/env bash
 
-# Get to git repo root directory
+# Get to git repo root directory from the directory of this script
 cd $(dirname $0)/..
 
 # Get the latest version locally
@@ -11,23 +11,7 @@ git pull
 git checkout -b "$(date -I)-ga-data"
 
 # Create a virtual environment to run our script in to prevent any package version conflicts
-python3 -m venv update_data
-
-# move our scripts over into the venv
-cp -r scripts/* update_data/
-
-cd update_data
-
-# Install requirements
-bin/pip3 install -r requirements.txt
-
-bin/python3 update_data.py
-mv *.csv ../_data
-
-cd ..
-
-# Clean up venv so git doesn't pick it up
-rm -rf update_data
+scripts/run_python_script.sh
 
 # Push our changes up to github and clean up local branch
 git add .
