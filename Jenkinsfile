@@ -18,6 +18,13 @@ pipeline {
     }
 
     stage('Upload') {
+      when {
+        expression {
+          (env.BRANCH_NAME == 'master' ||
+          env.BRANCH_NAME == 'production') &&
+          !env.CHANGE_TARGET
+        }
+      }
       steps {
         script {
           def envs = [
