@@ -20,7 +20,8 @@ pipeline {
     stage('Upload') {
       when {
         expression {
-          (env.BRANCH_NAME == 'master' ||
+          (env.BRANCH_NAME == 'demo' ||
+          env.BRANCH_NAME == 'master' ||
           env.BRANCH_NAME == 'production') &&
           !env.CHANGE_TARGET
         }
@@ -28,7 +29,8 @@ pipeline {
       steps {
         script {
           def envs = [
-            'master': ['dev', 'staging'],
+            'demo': ['dev'],
+            'master': ['staging'],
             'production': ['prod'],
           ]
 
