@@ -1,14 +1,15 @@
 # Vets.gov Executive Scorecard
+[![Build Status](https://dev.vets.gov/jenkins/buildStatus/icon?job=department-of-veterans-affairs/vets.gov-status/master)](http://jenkins.vetsgov-internal/job/department-of-veterans-affairs/job/vets.gov-status/job/master/)
 
 A dashboard for Vets.gov projects executive scorecard
 
 ## Getting started
 
-1. Install Jekyll:
+1. Install Jekyll
 2. Clone this repository
 3. Serve the project locally
   ```
-  jekyll serve
+  bundle exec jekyll serve
   ```
 
 ## Previous repo
