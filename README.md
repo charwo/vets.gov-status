@@ -7,6 +7,7 @@ A dashboard for Vets.gov projects executive scorecard
 
 1. Install Jekyll
 2. Clone this repository
+3. Run `bundle` to install gems
 3. Serve the project locally
   ```
   bundle exec jekyll serve
