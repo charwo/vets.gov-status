@@ -128,6 +128,7 @@ def make_df(report):
 def output_clicks(df, board):
     """Output a csv from dataframe contents."""
 
+    df.columns = ["all"]
     filename = "{}_clicks.csv".format(board)
     df.to_csv(filename, date_format="%m/%d/%y")
 
@@ -136,7 +137,7 @@ def output_clicks(df, board):
 def run_reports(analytics, board, view_id):
     response = get_reports(analytics, view_id)
     vcl_df = make_df(response['reports'][0])
-    output_clicks(user_df, board)
+    output_clicks(vcl_df, board)
 
 def main():
     analytics = initialize_analyticsreporting()
