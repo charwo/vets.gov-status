@@ -8,6 +8,9 @@
 <script>
 var ctx = document.getElementById("{{chart.data}}-chart");
 {% capture datafile %}{{ page.charts | append: chart.data }}{% endcapture %}
+{% if page.clicks %}
+  {% capture datafile %}{{ page.clicks | append: chart.data }}{% endcapture %}
+{% endif %}
 var myChart = new Chart(ctx, {
     type: 'line',
     data: {

@@ -1,0 +1,7 @@
+- name: Outbound visits
+  icon: new-window
+  data: _clicks
+  context: Total links (web, phone, text) clicked per week
+  cols:
+    - id: all
+      label: Count of users

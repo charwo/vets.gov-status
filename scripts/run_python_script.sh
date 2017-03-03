@@ -13,6 +13,7 @@ bin/pip3 install wheel
 bin/pip3 install -r requirements.txt
 
 bin/python3 update_data.py
+bin/python3 update_vcl_clicks.py
 mv *.csv ../_data
 
 cd ..
