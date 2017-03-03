@@ -1,5 +1,5 @@
-- name: Account sign-ups
-  icon: file
+- name: New accounts
+  icon: plus-sign
   data: _signups
   context: New account sign ups per day
   cols:
@@ -11,9 +11,9 @@
       color: rgb(175,175,175)
 
 - name: Total accounts
-  icon: file
+  icon: globe
   data: _signupstotal
-  context: Total accounts
+  context: Total accounts created since launch
   cols:
     - id: totalloa1signups
       label: Total LOA1 signups
