@@ -33,7 +33,7 @@ var myCharts = [];
       </ul>
       <!-- Tab panes -->
       <div class="tab-content">
-        {% if page.accounts %}
+        {% if page.charts %}
           {% for chart in site.data.charts %}
           <div class="tab-pane{% if forloop.first == true %} active{% endif %}" id="{{chart.data}}">{% include tiles/chart.html %}</div>
           {% endfor %}
