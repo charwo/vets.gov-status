@@ -17,4 +17,6 @@ tiles:
     layout: icon
     icon: list-alt
     text: Plain language content on many issues should reduce non-crisis calls
+
+clicks: vcl
 ---

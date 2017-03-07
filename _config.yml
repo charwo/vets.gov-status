@@ -15,5 +15,6 @@ exclude:
   - README.md
   - Gemfile
   - Gemfile.lock
+  - Jenkinsfile
 
 baseurl: "/scorecard"

@@ -1,4 +1,4 @@
-{% if page.charts %}
+{% if page.charts or page.accounts or page.clicks %}
 
 <div class="row subtitle">
   <div class="col-md-12">
@@ -14,23 +14,38 @@ var myCharts = [];
   <div class="col-md-12"> <!-- required for floating -->
       <!-- Nav tabs -->
       <ul class="nav nav-tabs tabs-chart">
-        {% for chart in site.data.charts %}
-        <li {% if forloop.first == true %}class="active"{% endif %}><a href="#{{chart.data}}" data-toggle="tab"><span class="glyphicon glyphicon-{{chart.icon}} tab-icon" aria-hidden="true"></span><span>{{chart.name}}</span></a></li>
-        {% endfor %}
+        {% if page.charts %}
+
+          {% for chart in site.data.charts %}
+          <li {% if forloop.first == true %}class="active"{% endif %}><a href="#{{chart.data}}" data-toggle="tab"><span class="glyphicon glyphicon-{{chart.icon}} tab-icon" aria-hidden="true"></span><span>{{chart.name}}</span></a></li>
+          {% endfor %}
+        {% endif %}
         {% if page.accounts %}
           {% for chart in site.data.accounts %}
           <li><a href="#{{chart.data}}" data-toggle="tab"><span class="glyphicon glyphicon-{{chart.icon}} tab-icon" aria-hidden="true"></span><span>{{chart.name}}</span></a></li>
           {% endfor %}
         {% endif %}
+        {% if page.clicks %}
+          {% for chart in site.data.clicks %}
+          <li {% if forloop.first == true %}class="active"{% endif %}><a href="#{{chart.data}}" data-toggle="tab"><span class="glyphicon glyphicon-{{chart.icon}} tab-icon" aria-hidden="true"></span><span>{{chart.name}}</span></a></li>
+          {% endfor %}
+        {% endif %}
       </ul>
       <!-- Tab panes -->
       <div class="tab-content">
-        {% for chart in site.data.charts %}
-        <div class="tab-pane{% if forloop.first == true %} active{% endif %}" id="{{chart.data}}">{% include tiles/chart.html %}</div>
-        {% endfor %}
+        {% if page.charts %}
+          {% for chart in site.data.charts %}
+          <div class="tab-pane{% if forloop.first == true %} active{% endif %}" id="{{chart.data}}">{% include tiles/chart.html %}</div>
+          {% endfor %}
+        {% endif %}
         {% if page.accounts %}
           {% for chart in site.data.accounts %}
           <div class="tab-pane" id="{{chart.data}}">{% include tiles/chart.html %}</div>
+          {% endfor %}
+        {% endif %}
+        {% if page.clicks %}
+          {% for chart in site.data.clicks %}
+          <div class="tab-pane{% if forloop.first == true %} active{% endif %}" id="{{chart.data}}">{% include tiles/chart.html %}</div>
           {% endfor %}
         {% endif %}
       </div>
