@@ -5,7 +5,7 @@ vetsdotgov_url: https://www.vets.gov/education/apply-for-education-benefits/appl
 status: normal
 category: Manage
 description: Veterans can manage eduction benefits online using any mobile device
-screenshot: placeholder
+screenshot: edumanage
 tiles:
 
   - name: Online applications submitted
